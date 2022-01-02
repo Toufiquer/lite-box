@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <g id="Group_1" data-name="Group 1" transform="translate(112 133)">
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="200" height="200" rx="100" transform="translate(-112 -133)" fill="rgba(0,0,0,0.36)"/>
+    <text id="T" transform="translate(-94 3)" fill="#ffe600" font-size="135" font-family="TimesNewRomanPSMT, Times New Roman"><tspan x="0" y="0">T</tspan></text>
+    <text id="R" transform="translate(-12 3)" fill="#ff0" font-size="135" font-family="TimesNewRomanPSMT, Times New Roman"><tspan x="0" y="0">R</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,7 @@
+@font-face{
+	font-family:"Times New Roman";
+	src:url("../fonts/times new roman") format("eot"),
+	url("../fonts/times new roman.woff") format("woff"),
+	url("../fonts/times new roman.ttf") format("truetype"),
+	url("../fonts/times new roman.svg#times new roman") format("svg");
+}

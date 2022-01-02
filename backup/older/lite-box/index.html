@@ -1,0 +1,4312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="assets/css/magnific-popup.css">
+	<link rel="stylesheet" href="assets/css/cd-headline.css">
+	<link rel="stylesheet" href="assets/css/aos.css">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<title>Lite-Box</title>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="article_btn"></div>
+<!-- ******************************************************************************** -->
+<!-- ***************  Start Article 1  |  Start Root Css  *************************** -->
+<!-- ******************************************************************************** -->
+<style>
+	/* Start Article 1  |  Start Root Css */
+	:root{
+		--t-c-crimson-: crimson;
+		--t-c-white-: white;
+		--t-c-yellow-: yellow;
+		--t-c-black-: rgba(0,0,0);
+		--t-c-transparent-: rgba(0,0,0,0);
+		--t-c-black-transparent-: rgba(0,0,0,0.6);
+		--theme-glass-1-: linear-gradient( to right bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.98) );
+		--theme-glass-2-: linear-gradient( to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6) );
+		--theme-glass-3-: linear-gradient( to right bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+		--font-family-: "Times New Roman" ;
+	}
+	*{
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+	}
+	html,body{
+		overflow-x: hidden;
+		scroll-behavior: smooth;
+		font-family: 'Times New Roman', Times, serif;
+	}
+	a{
+		text-decoration: none;
+	}
+	a:hover{
+		text-decoration: none;
+		color: var(--t-c-yellow-);
+	}
+	hr{
+		background: var(--t-c-yellow-);
+	}
+	img{
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+	}
+	p{
+		color: var(--t-c-black-);
+		font-size:18px;
+		margin-top: 5px;
+		line-height: 18px;
+		font-weight: 300;
+	}
+	.line-one {
+		height: 1px;
+		width: 200px;
+		background: var(--t-c-white-);
+		display: block;
+		margin: 0 auto;
+		padding: 0;
+	}
+	.active {
+		color: var(--t-c-yellow-);
+	}
+	.inactive {
+		color: var(--t-c-white-);
+	}
+	.sticky {
+		position: fixed;
+		top: 0;
+		width: 100%;
+		z-index: 999;
+	}
+	.card, .card-img-overlay, .card-header, .card-footer{
+		border-radius: 0px !important;
+		border: 0px !important;
+	}
+	.card-img, .card-img-top {
+		border-top-left-radius: calc(0rem - 0px);
+		border-top-right-radius: calc(0rem - 0px);
+	}
+	.p_top{
+		padding-top: 75px;
+	}
+	/* End Article 1 |  End Root Css */
+</style>
+<!-- ******************************************************************************** -->
+<!-- ***************  End Article 1|  End Root Css  ********************************* -->
+<!-- ******************************************************************************** -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ******************************************************************************** -->
+<!-- ***************  Start Article 1.1  |  Start Comments  ************************* -->
+<!-- ******************************************************************************** -->
+<style>
+	/* Start Article 1.1  |  Start Comments */
+	.commentlist img{
+		width: 80px;
+		height: 80px;
+		margin-right: 12px;
+	}
+	#comments{
+		display: none;
+	}
+	.commentlist{
+		list-style: none;
+	}
+	.comments {
+		margin: 10px 0
+	}
+	.comments h3 {
+		margin: 50px 0 30px;
+		font-size: 24px
+	}
+	ol.commentlist {
+		list-style: none;
+		margin: 0 0 1em;
+		padding: 0;
+		text-indent: 0
+	}
+	ol.commentlist li.comment {
+		border-top: 1px solid var(--t-c-white-);
+		padding: 1em;
+		margin-bottom: 10px
+	}
+	ol.commentlist li div.vcard {
+		font-size: 20px
+	}
+	ol.commentlist li div.vcard cite.fn {
+		font-style: normal
+	}
+	ol.commentlist li div.vcard img.avatar {
+		float: left;
+	}
+	ol.commentlist li div.comment-meta {
+		font-size: 9px;
+		margin-bottom: 10px
+	}
+	ol.commentlist li div.comment-meta a {
+		color: var(--t-c-yellow-);
+	}
+	ol.commentlist li p {
+		margin: 0
+	}
+	ol.commentlist li ul {
+		list-style: square;
+		margin: 0 0 1em 2em
+	}
+	ol.commentlist li div.reply {
+		font-size: 11px
+	}
+	ol.commentlist li div.reply a {
+		font-weight: 700;
+		color: var(--t-c-yellow-);
+	}
+	ol.commentlist li ul.children {
+		list-style: none;
+		margin: 1em 0 0;
+		text-indent: 0
+	}
+	ol.commentlist li ul.children li.depth-2,
+	ol.commentlist li ul.children li.depth-3,
+	ol.commentlist li ul.children li.depth-4 {
+		margin: 0 0 .25em .25em
+	}
+	ol.commentlist li.even {
+		background: var(--theme-glass-1-);
+	}
+	ol.commentlist li.odd {
+		background: var(--theme-glass-1-);
+	}
+	ol.commentlist li.pingback {
+		margin: 0 0 10px;
+		padding: 1em;
+		border: 1px dashed var(--t-c-white-);
+	}
+	#respond {
+		position: relative;
+		margin-top: 13px;
+	}
+	#respond input[type=text], #respond textarea {
+		border: 1px solid var(--t-c-white-);
+		padding: 10px
+	}
+	#respond input[type=text] {
+		padding: 7px;
+		width: 300px
+	}
+	#respond input{
+		background: var(--theme-glass-1-);
+		color: var(--t-c-yellow-);
+	}
+	#respond .comment-form-author,
+	#respond .comment-form-comment,
+	#respond .comment-form-email,
+	#respond .comment-form-url {
+		position: relative
+	}
+	#respond input[type=text]:focus,
+	#respond textarea:focus {
+		text-indent: 0;
+		z-index: 1
+	}
+	#respond textarea {
+		resize: vertical;
+		width: 100%;
+		background: var(--theme-glass-1-);
+		color: var(--t-c-white-);
+	}
+	#respond .comment-form-author .required, #respond .comment-form-email .required {
+		color: var(--t-c-crimson-);
+		font-size: 22px;
+		font-weight: 700;
+		position: absolute;
+		z-index: 1;
+	}
+	#respond .comment-notes,
+	#respond .logged-in-as {
+		font-size: 13px
+	}
+	#respond p {
+		margin: 10px 0
+	}
+	#respond .form-submit {
+		float: right;
+		margin: -20px 0 10px
+	}
+	#respond input#submit {
+		background: var(--theme-glass-1-);
+		border: none;
+		-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .3);
+		-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .3);
+		box-shadow: 0 1px 2px rgba(0, 0, 0, .3);
+		color: var(--t-c-crimson-);
+		cursor: pointer;
+		padding: 5px 42px 5px 22px;
+		border: 1px solid;
+	}
+	#respond input#submit:active {
+		background: var(--theme-glass-3-);
+		color: var(--t-c-crimson-);
+	}
+	#respond #cancel-comment-reply-link {
+		color: var(--t-c-black-);
+		margin-left: 10px;
+		text-decoration: none
+	}
+	#respond #cancel-comment-reply-link:hover,
+	#respond .logged-in-as a:hover {
+		text-decoration: underline
+	}
+	.commentlist #respond {
+		margin: 1.625em 0 0;
+		width: auto
+	}
+	#reply-title {
+		color: var(--t-c-crimson-);
+		font-size: 20px
+	}
+	#cancel-comment-reply-link {
+		color: var(--t-c-black-);
+		display: block;
+		position: absolute;
+		right: 1.625em;
+		text-decoration: none;
+		text-transform: uppercase;
+		top: 1.1em
+	}
+	#cancel-comment-reply-link:active,
+	#cancel-comment-reply-link:focus,
+	#cancel-comment-reply-link:hover {
+		color: var(--t-c-crimson-);
+	}
+	#respond p {
+		font-size: 12px
+	}
+	p.comment-form-comment {
+		margin: 0
+	}
+	.form-allowed-tags {
+		display: none
+	}
+	.trackback {
+		margin: 0 0 10px;
+		padding: 1em;
+		border: 1px dashed var(--t-c-white-);
+	}
+	#commentform label{
+		float:left;
+		width: 52px;
+	}
+	#respond .comment-form-comment{
+		margin-bottom:26px;
+	}
+	#comments h2{
+		font-size: 35px;
+		margin:1em 0;
+	}
+	#comments{
+		padding-top:13px;
+		border-top:1px solid var(--t-c-white-);;
+		color: #067092;
+		font-size: 150%;
+	}
+	.comment-respond .comment-form-cookies-consent label{
+		width: 100% !important;
+	}
+	/* End Article 1.1 |  End Comments */
+</style>
+<!-- ******************************************************************************** -->
+<!-- ***************    End Article 1.1  |  End Comments    ************************* -->
+<!-- ******************************************************************************** -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ******************************************************************************** -->
+<!-- ***************   Start Article 1.2  |  Start LogIn & Appointment  ************* -->
+<!-- ******************************************************************************** -->
+<style>
+	/* Start LogIn */
+	.um .um-form input{
+		background: var(--theme-glass-3-)!important;
+		color: var(--t-c-yellow-);
+	}
+	.um .um-button.um-alt{
+		background: var(--theme-glass-3-)!important;
+		color: var(--t-c-yellow-);
+	}
+	/* End LogIn */
+
+	/* Start Appointment */
+	.dfield input{
+		width: 100% !important;
+		background: var(--theme-glass-1-);
+		margin-bottom: 10px;
+		color: var(--t-c-yellow-);
+	}
+	.ahbfield_service{
+		background: var(--theme-glass-1-);
+		color: var(--t-c-yellow-);
+	}
+	#fbuilder .slots div a {
+		background: var(--theme-glass-1-) !important;
+	} 
+	.pbSubmit{
+		background: var(--theme-glass-1-)!important;
+		color: var(--t-c-yellow-)!important;
+		border: 1px solid!important;
+		float: right!important;
+	}
+	/* End Appointment */
+</style>
+<!-- ******************************************************************************** -->
+<!-- ***************  End Article 1.2  |  End LogIn & Appointment ******************* -->
+<!-- ******************************************************************************** -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ******************************************************************************** -->
+<!-- ***************  Start Article 2  |  Start Preloader   ************************* -->
+<!-- ******************************************************************************** -->
+<div>
+	<style>
+		/* Start Article 2  |  Start Preloader */
+        #article_2 .preloader {
+            -webkit-font-smoothing: antialiased;
+            text-rendering: optimizeLegibility;
+            font-family: "proxima-nova-soft", sans-serif;
+            height: 100vh;
+            width: 100%;
+            position: fixed;
+            z-index: 99999;
+            overflow: hidden;
+        }
+        #article_2 .preloader .vertical-centered-box {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+        }
+        #article_2 .preloader .vertical-centered-box:after {
+            content: '';
+            display: inline-block;
+            height: 100%;
+            vertical-align: middle;
+            margin-right: -0.25em;
+        }
+        #article_2 .preloader .vertical-centered-box .content {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            display: inline-block;
+            vertical-align: middle;
+            text-align: left;
+            font-size: 0;
+        }
+        #article_2 .preloader * {
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            -o-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+        #article_2 .preloader {
+            background: #2c2d44;
+        }
+        #article_2 .preloader .loader-circle {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+            margin-left: -60px;
+            margin-top: -60px;
+        }
+        #article_2 .preloader .loader-line-mask {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            width: 60px;
+            height: 120px;
+            margin-left: -60px;
+            margin-top: -60px;
+            overflow: hidden;
+            -webkit-transform-origin: 60px 60px;
+            -moz-transform-origin: 60px 60px;
+            -ms-transform-origin: 60px 60px;
+            -o-transform-origin: 60px 60px;
+            transform-origin: 60px 60px;
+            -webkit-animation: rotate 1.2s infinite linear;
+            -moz-animation: rotate 1.2s infinite linear;
+            -o-animation: rotate 1.2s infinite linear;
+            animation: rotate 1.2s infinite linear;
+        }
+        #article_2 .preloader .loader-line-mask .loader-line {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5);
+        }
+        #article_2 .preloader #particles-background,
+        #particles-foreground {
+            left: -51%;
+            top: -51%;
+            width: 202%;
+            height: 202%;
+            -webkit-transform: scale3d(0.5, 0.5, 1);
+            -moz-transform: scale3d(0.5, 0.5, 1);
+            -ms-transform: scale3d(0.5, 0.5, 1);
+            -o-transform: scale3d(0.5, 0.5, 1);
+            transform: scale3d(0.5, 0.5, 1);
+        }
+        #article_2 .preloader #particles-background {
+            background: #2c2d44;
+            background-image: -moz-linear-gradient(45deg, #3f3251 2%, #002025 100%);
+            background-image: -webkit-linear-gradient(45deg, #3f3251 2%, #002025 100%);
+            background-image: linear-gradient(45deg, #3f3251 2%, #002025 100%);
+        }
+        #article_2 .preloader img{
+            height:118px;
+            width: 118px;
+        }
+        lesshat-selector {
+            -lh-property: 0; } 
+        @-webkit-keyframes rotate{ 0% { -webkit-transform: rotate(0deg);} 100% { -webkit-transform: rotate(360deg);}}
+        @-moz-keyframes rotate{ 0% { -moz-transform: rotate(0deg);} 100% { -moz-transform: rotate(360deg);}}
+        @-o-keyframes rotate{ 0% { -o-transform: rotate(0deg);} 100% { -o-transform: rotate(360deg);}}
+        @keyframes rotate{ 0% {-webkit-transform: rotate(0deg);-moz-transform: rotate(0deg);-ms-transform: rotate(0deg);transform: rotate(0deg);} 100% {-webkit-transform: rotate(360deg);-moz-transform: rotate(360deg);-ms-transform: rotate(360deg);transform: rotate(360deg);}}
+        [not-existing] {
+            zoom: 1;
+        }
+        lesshat-selector {
+            -lh-property: 0; } 
+        @-webkit-keyframes fade{ 0% { opacity: 1;} 50% { opacity: 0.25;}}
+        @-moz-keyframes fade{ 0% { opacity: 1;} 50% { opacity: 0.25;}}
+        @-o-keyframes fade{ 0% { opacity: 1;} 50% { opacity: 0.25;}}
+        @keyframes fade{ 0% { opacity: 1;} 50% { opacity: 0.25;}}
+        [not-existing] {
+            zoom: 1;
+        }
+        lesshat-selector {
+            -lh-property: 0; } 
+        @-webkit-keyframes fade-in{ 0% { opacity: 0;} 100% { opacity: 1;}}
+        @-moz-keyframes fade-in{ 0% { opacity: 0;} 100% { opacity: 1;}}
+        @-o-keyframes fade-in{ 0% { opacity: 0;} 100% { opacity: 1;}}
+        @keyframes fade-in{ 0% { opacity: 0;} 100% { opacity: 1;}}
+        [not-existing] {
+            zoom: 1;
+        }
+		/* End Article 2 |  End Preloader  */
+	</style>
+	<article id="article_2">
+		<!-- Start Article 2  |  Start Preloader -->
+        <div class="preloader">
+            <div id="particles-background" class="vertical-centered-box"></div>
+            <div id="particles-foreground" class="vertical-centered-box"></div>
+            <div class="vertical-centered-box">
+                <div class="content">
+                    <div class="loader-circle"></div>
+                    <div class="loader-line-mask">
+                        <div class="loader-line"></div>
+                    </div>
+                    <img src="assets/img/preloader.svg" alt="X" />
+                </div>
+            </div>
+        </div>
+		<!-- End Article 2  |  End Preloader  -->
+	</article>
+</div>
+<!-- ******************************************************************************** -->
+<!-- ***************  End Article 2 |  End Preloader   ****************************** -->
+<!-- ******************************************************************************** -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ******************************************************************************** -->
+<!-- ***************  Start Article 3  |  Start Background  ************************* -->
+<!-- ******************************************************************************** -->
+<div>
+	<style>
+		/* Start Article 3  |  Start Background */
+		.background_img{
+			background: url("assets/img/img.jpg");
+		}
+		.background_bg{
+			background: url("assets/img/bg.jpg");
+		}
+		.background_bg_2{
+			background: url("assets/img/bg_2.jpg");
+		}
+		.background_bg_3{
+			background: url("assets/img/bg_3.jpg");
+		}
+		.background_color{
+			background: var(--theme-glass-3-);
+		}
+		.background_color_black{
+			background: var(--t-c-black-);
+		}
+		.background{
+			width: 100%;
+			/* padding-top: 65px;; */
+			align-items: center;
+			justify-content: center;
+			background-size: cover;
+			background-attachment: fixed;
+			background-position: top center;
+			position: relative;
+			z-index: 1;
+		}
+		.background::after{
+			content: '';
+			position: absolute;
+			left: 0;
+			top: 0;
+			height: 100%;
+			width: 100%;
+			background: var(--theme-glass-1-);
+			opacity: .8;
+			z-index: -1;
+		}
+		#article_3 #myVideo{
+			position: fixed;
+			right: 0;
+			bottom: 0;
+			min-width: 100%;
+			min-height: 100%;
+			z-index: -1;
+		}
+		/* End Article 3 |  End Background */
+	</style>
+	<article id="article_3">
+		<!-- Start Article 3  |  StartBackground -->
+		<video autoplay muted loop id="myVideo">
+			<source src="assets/video/video.mp4" type="video/mp4">
+		</video>
+		<!-- End Article 3  |  End Background -->
+	</article>
+</div>
+<!-- ******************************************************************************** -->
+<!-- ***************  End Article 3 |  End Background  ****************************** -->
+<!-- ******************************************************************************** -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ******************************************************************************** -->
+<!-- ***************  Start Article 4  |  Start Top Address  ************************ -->
+<!-- ******************************************************************************** -->
+<div>
+	<style>
+		/* Start Article 4  |  Start Top Address */
+		#article_4{
+			height: 30px;
+			padding:0;
+			color: var(--t-c-white-);
+			font-size: 18px;
+			overflow: hidden;
+		}
+		#article_4 .address{
+			float: left;
+		}
+		#article_4 .icon{
+			float: right;
+		}
+		#article_4 .icon a i{
+			color: var(--t-c-yellow-);
+			padding: 0px 5px;
+		}
+		@media only screen and (max-width: 1200px) {
+			#article_4 .address{
+				width: 780px;
+			}
+		}
+		@media only screen and (max-width: 991px) {
+			#article_4 .address{
+				width: 460px;
+			}
+		}
+		@media only screen and (max-width: 767px) {
+			#article_4 .address{
+				width: 170px;
+			}
+		}
+		@media only screen and (max-width: 575px) {
+			#article_4 .address{
+				width: 170px;
+			}
+		}
+		/* End Article 4 |  End Top Address */
+	</style>
+	<article id="article_4" class="background_color">
+		<!-- Start Article 4  |  Start Top Address-->
+		<div class="container">
+			<!-- <div class="address"><i class="bi bi-telephone-fill"></i> (+880) 1991075127 | <i class="bi bi-geo-alt"></i> 98/1 Bijayshoroni, Tejgaon, Dhaka | <i class="bi bi-envelope"></i> toufiquerabc@gmail.com </div><div class="icon"><a href="#"><i class="bi bi-facebook"></i></a><a href="#"><i class="bi bi-twitter"></i></a><a href="#"><i class="bi bi-linkedin"></i></a><a href="#"><i class="bi bi-instagram"></i></a><a href="#"><i class="bi bi-chat-dots"></i></a></div> -->
+			<div class="address">
+				<i class="bi bi-telephone-fill"></i> (+880) 1991075127 | 
+				<i class="bi bi-geo-alt"></i> 98/1 Bijayshoroni, Tejgaon, Dhaka | 
+				<i class="bi bi-envelope"></i> toufiquerabc@gmail.com 
+			</div>
+			<div class="icon">
+				<a href="#"><i class="bi bi-facebook"></i></a>
+				<a href="#"><i class="bi bi-twitter"></i></a>
+				<a href="#"><i class="bi bi-linkedin"></i></a>
+				<a href="#"><i class="bi bi-instagram"></i></a>
+				<a href="#"><i class="bi bi-chat-dots"></i></a>
+			</div>
+		</div>
+		<!-- End Article 4  |  End Top Address -->
+	</article>
+</div>
+<!-- ******************************************************************************** -->
+<!-- ***************  End Article 4 |  End Top Address ****************************** -->
+<!-- ******************************************************************************** -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ******************************************************************************** -->
+<!-- ***************  Start Article 5  |  Start Navbar | Menu  ********************** -->
+<!-- ******************************************************************************** -->
+<div>
+	<style>
+		/* Start Article 5  |  Start Navbar | Menu */
+		.sticky {
+			position: fixed;
+			top: 0;
+			width: 100%;
+			z-index: 999;
+		}
+		#article_5{
+			z-index: 9999;
+		}
+		#article_5 .brand h1 a{
+			font-size: 28px;
+			text-transform: uppercase;
+			color: var(--t-c-yellow-);
+			padding-left: 12px;
+		}
+		#article_5 .header{
+			min-height: 65px;
+			transition: .3s ease background-color;
+			border-top: 1px solid;
+		}
+		#article_5 .nav-bar{
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			width: 100%;
+			height: 100%;
+			max-width: 1300px;
+		}
+		#article_5 .nav-list ul{
+			list-style: none;
+			position: fixed;
+			width: 100vw;
+			height: 100vh;
+			left: 100%;
+			top: 0;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			z-index: 2;
+			overflow-x: hidden;
+			transition: .5s ease left;
+			margin-bottom: 0;
+		}
+		#article_5 .nav-list ul.active {
+			background: var(--theme-glass-1-);
+			left: 0%;
+		}
+		#article_5 .nav-list ul a {
+			font-size: 25px;
+			font-weight: 500;
+			text-decoration: none;
+			color: var(--t-c-white-);
+			text-transform: uppercase;
+			padding: 20px;
+			display: block;
+		}
+		#article_5 .nav-list ul li:hover a::after {
+			transform: translate(-50%, -50%) scale(1);
+			letter-spacing: initial;
+		}
+		#article_5 .nav-list ul li:hover a {
+			color: var(--t-c-yellow-);
+		}
+		#article_5 .nav-list ul li a.active {
+			color: var(--t-c-yellow-); 
+		}
+		#article_5 .hamburger {
+			height: 60px;
+			width: 60px;
+			display: inline-block;
+			border: 3px solid white;
+			border-radius: 50%;
+			position: relative;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			z-index: 100;
+			cursor: pointer;
+			transform: scale(.8);
+			margin-right: 20px;
+			margin-top: 5px;
+		}
+		#article_5 .hamburger:after {
+			position: absolute;
+			content: '';
+			height: 100%;
+			width: 100%;
+			border-radius: 50%;
+			border: 3px solid var(--t-c-white-);
+			animation: hamburger_puls 1s ease infinite;
+		}
+		#article_5 .hamburger .bar {
+			height: 2px;
+			width: 30px;
+			position: relative;
+			background-color: var(--t-c-white-);
+			z-index: -1;
+		}
+		#article_5 .hamburger .bar::after,
+		#article_5 .hamburger .bar::before {
+			content: '';
+			position: absolute;
+			height: 100%;
+			width: 100%;
+			left: 0;
+			background-color: var(--t-c-white-);
+			transition: .3s ease;
+			transition-property: top, bottom;
+		}
+		#article_5 .hamburger .bar::after {
+			top: 8px;
+		}
+		#article_5 .hamburger .bar::before {
+			bottom: 8px;
+		}
+		#article_5 .hamburger.active .bar::before {
+			bottom: 0;
+		}
+		#article_5 .hamburger.active .bar::after {
+			top: 0;
+		}
+		/* Keyframes */
+		@-webkit-keyframes hamburger_puls {
+			0% {
+				opacity: 1;
+				transform: scale(1);
+			}
+			100% {
+				opacity: 0;
+				transform: scale(1.4);
+			}
+		}
+		@-moz-keyframes hamburger_puls {
+			0% {
+				opacity: 1;
+				transform: scale(1);
+			}
+			100% {
+				opacity: 0;
+				transform: scale(1.4);
+			}
+		} 
+		@-o-keyframes hamburger_puls {
+			0% {
+				opacity: 1;
+				transform: scale(1);
+			}
+			100% {
+				opacity: 0;
+				transform: scale(1.4);
+			}
+		} 
+		@keyframes hamburger_puls {
+			0% {
+				opacity: 1;
+				transform: scale(1);
+			}
+			100% {
+				opacity: 0;
+				transform: scale(1.4);
+			}
+		}
+		/* Media Query For Extra Large Device */
+		@media only screen and (min-width: 1200px) {
+			#article_5 .header {
+				z-index: 999;
+			}
+			#article_5 .hamburger {
+				display: none;
+			}
+			#article_5 .nav-list ul {
+				position: initial;
+				display: block;
+				height: auto;
+				width: fit-content;
+				background-color: transparent;
+			}
+			#article_5 .nav-list ul.active {
+				background: none;
+			}
+			#article_5 .nav-list ul li {
+				display: inline-block;
+			}
+			#article_5 .nav-list ul li a {
+				font-size: 18px;
+			}
+			#article_5 .nav-list ul a:after {
+				display: none;
+			}
+		}
+		/* End Article 5 |  End Navbar | Menu */
+	</style>
+	<article id="article_5" class="">
+		<!-- Start Article 5  |  Start Navbar | Menu-->
+		<div class="header">
+			<div class="container">
+				<div class="nav-bar">
+					<div class="brand">
+						<h1><a href="">Toufiquer</a></h1>
+					</div>
+					<div class="nav-list">
+						<div class="hamburger"><div class="bar"></div></div>
+						<div class="follfo">
+							<nav id="navigation">
+								<ul>
+								  <li><a class="" href="#nav_spy_1">Home</a></li>
+								  <li><a class="" href="#nav_spy_2">Services</a></li>
+								  <li><a class="" href="#nav_spy_3">Projects</a></li>
+								  <li><a class="" href="#nav_spy_4">About</a></li>
+								  <li><a class="" href="#nav_spy_5">Contact</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Article 5  |  End Navbar | Menu -->
+	</article>
+</div>
+<!-- ******************************************************************************** -->
+<!-- ***************  End Article 5 |  End Navbar | Menu  *************************** -->
+<!-- ******************************************************************************** -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ----------------------------------------- -->
+<style>
+	.section_nav{
+		height: 100vh;
+		width: 100%;
+		background: var(--theme-glass-3-);
+	}
+</style>
+<!-- ******************************************************************************** -->
+<section id="nav_spy_1" class="p_top"><div class="section_nav"></div><hr></section>
+<!-- ******************************************************************************** -->
+<!-- ******************************************************************************** -->
+<section id="nav_spy_2" class="p_top"><div class="section_nav"></div><hr></section>
+<!-- ******************************************************************************** -->
+<!-- ******************************************************************************** -->
+<section id="nav_spy_3" class="p_top"><div class="section_nav"></div><hr></section>
+<!-- ******************************************************************************** -->
+<!-- ******************************************************************************** -->
+<section id="nav_spy_4" class="p_top"><div class="section_nav"></div><hr></section>
+<!-- ******************************************************************************** -->
+<!-- ******************************************************************************** -->
+<section id="nav_spy_5" class="p_top"><div class="section_nav"></div><hr></section>
+<!-- ******************************************************************************** -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- --------------------------------------------------------------------------------- -->
+<!-- --------------------------------------------------------------------------------- -->
+<div class="">
+	<style>
+		.up_btn::before{
+			background: var(--t-c-black-);
+			border-radius: 10px;
+		}
+		.up_btn{
+			position: fixed;
+			opacity: 0;
+			transition: .4s;
+			z-index: 999;
+			bottom: 15px;
+			right: 15px;
+			color: var(--t-c-yellow-);
+			font-size:35px;
+		}
+		.up_btn:hover{
+			color: var(--t-c-crimson-);
+		}
+		.up_btn.active{
+			opacity: 1;
+		}
+	</style>
+		<a class="black_bg" href="#article_btn"><i class="up_btn bi bi-arrow-up-square"></i></i></a>
+	<script>
+		const toTop = document.querySelector(".up_btn");
+
+		window.addEventListener("scroll", () => {
+		if (window.pageYOffset > 200) {
+			toTop.classList.add("active");
+		} else {
+			toTop.classList.remove("active");
+		}
+		});
+	</script>
+</div>
+<!-- --------------------------------------------------------------------------------- -->
+<!-- --------------------------------------------------------------------------------- -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ******************************************************************************** -->
+<!-- ***************  Start Article 6  |  Start Hero  ******************************* -->
+<!-- ******************************************************************************** -->
+<div>
+	<style>
+		/* Start Article 6  |  Start Hero */
+		#article_6{
+			min-height: 100vh;
+			width: 100%;
+		}
+		#article_6 .title_wrapper {
+			bottom: 220px;
+			left: 80px;
+		}
+		#article_6 h1 {
+			font-size: 45px;
+			color: var(--t-c-white-);
+		}
+		#article_6 h1.cd-headline.letters.rotate-2 {
+			color: var(--t-c-yellow-);
+		}
+		#article_6 p.cd_heading {
+			color: var(--t-c-yellow-);
+			font-size: 33px;
+		}
+		#article_6 .btn_l_m {
+			margin-left: 18px;;
+		}
+		#article_6 a.btn.btn_hero {
+			color: var(--t-c-white-);
+			border: 1px solid currentColor;
+			font-size: 18px;
+			background: var(--theme-glass-1-);
+		}
+		#article_6 a.btn.btn_hero:hover {
+			color: var(--t-c-crimson-);
+			border: 1px solid currentColor;
+			cursor: pointer;
+		}
+		#article_6 .right_box{
+			padding: 9px;
+			top: 18%;
+			background: var(--theme-glass-3-);
+		}
+		#article_6 .second {
+			padding: 20px 15px 40px 25px;
+		}
+		#article_6 .timer {
+			font-size: 32px;
+			color: var(--t-c-white-);
+		}
+		#article_6 .timer_sub {
+			font-size: 28px;
+			color: var(--t-c-white-);
+		}
+		#article_6 .timer_count {
+			font-size: 32px;
+			color: var(--t-c-yellow-);
+		}
+		#article_6 .icon {
+			text-align: center;
+		}
+		#article_6 .right_box .contact .icon a i{
+			color: var(--t-c-yellow-);
+			font-size: 35px;
+			padding: 2px 6px;
+		}
+		#article_6 .right_box p{
+			color: var(--t-c-crimson-);
+		}
+		#article_6 #days_2 {
+			display: inline;
+		}
+		#article_6 #hours_2 {
+			display: inline;
+		}
+		#article_6 #minutes_2 {
+			display: inline;
+		}
+		#article_6 #seconds_2 {display: inline;
+		}
+		@media only screen and (min-width:1200px){
+			#article_6{
+				position: relative;
+				min-height: 100vh;
+				width: 100%;
+			}
+			#article_6 .title_wrapper{
+				position: absolute;
+			}
+			#article_6 .right_box{
+				position: absolute;
+			}
+			#article_6 .right_box.p-2 {
+				top: 180px;
+				background: var(--theme-glass-1-);
+				padding: 9px 9px 9px 9px;
+			}
+		}
+		@media only screen and (max-width:1199px){
+			#article_6{
+				height: auto;
+			}
+			#article_6 h1 {
+				text-align: center;
+			}
+			#article_6 h1.cd-headline.letters.rotate-2 {
+				text-align: center;
+			}
+			#article_6 p.cd_heading {
+				text-align: center;
+			}
+			#article_6 .title_wrapper {
+				margin-top: 130px;
+				height: calc(100vh - 365px);
+			}
+			#article_6 .right_box {
+				text-align: center;
+				margin-top:65px;
+				bottom: 82px;
+			}
+			#article_6 .title_wrapper a.btn_l_m {
+				margin-left: 38%;
+			}
+		}
+		@media screen and (min-width: 760px) and (max-width:768px){
+			#article_6 .title_wrapper {
+				margin-top: 600px;
+				height: calc(100vh - 835px);
+			}
+		}
+		@media screen and (min-width: 769px) and (max-width:1025px){
+			#article_6 .title_wrapper {
+				margin-top: 845px;
+				height: calc(100vh - 1078px);
+			}
+		}
+		/* End Article 6 |  End Hero */
+	</style>
+	<article id="article_6">
+		<!-- Start Article  6 |  Start Hero -->
+		<div class="row">
+			<div class="col-12 col-xl-6">
+				<div class="title_wrapper">
+					<h1>Hello, I'm</h1>
+					<h1>Toufiquer Rahman</h1>
+					<h1 class="cd-headline letters rotate-2">
+						<p class="cd_heading">
+							<span class="cd-words-wrapper">
+								<b class="is-visible">Web Designer</b>
+								<b>Web Developer</b>
+								<b>WordPress Developer</b>
+								<b>WordPress Customize</b>
+								<b>UX, UI Designer</b>
+							</span>
+						</p>
+					</h1>
+					
+					<a href="#" class="btn btn_hero btn_l_m">Portfolio</a>
+					<a href="#" class="btn btn_hero">Resume</a>
+				</div>
+			</div>
+			<div class="col-12 col-xl-6">
+				<div class="right_box">
+					<div class="row">
+
+						<!-- <div class="first">
+							<div class="col-12">
+								<div class="timer">Now, I Am Available </div>
+								<div class="timer_sub">Contact Me for the Better experience</div>
+								<p>What Do You Think About I Will Contact You In One Hour?</p>
+								<hr>
+								<div class="contact">
+									<div class="icon">
+										<a href="#"><i class="bi bi-facebook"></i></a>
+										<a href="#"><i class="bi bi-envelope"></i></a>
+										<a href="#"><i class="bi bi-linkedin"></i></a>
+										<a href="#"><i class="bi bi-telephone-x"></i></a>
+									</div>
+								</div>
+							</div>
+						</div> -->
+						<div class="second">
+							<div class="timer">Now, I Am Not Available, </br> I Will Be Available In,</div>
+							<div class="timer_count">
+								<div id="days_2"></div><span class="span_2 days_2">D, </span>
+								<div id="hours_2"></div><span class="span_2 hours_2">H, </span>
+								<div id="minutes_2"></div><span class="span_2 minute_2">M, </span>
+								<div id="seconds_2"></div><span class="span_2 secound_2">S </span>
+								<p>Fix An Appointment For The Better Experience.</p>
+								<div class="col-12">
+									<form action="">
+										<input type="text">
+										<input type="text">
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>
+			var date = new Date();
+			var v_minute = date.getMinutes();
+			var v_hour = date.getHours();
+			var v_date = date.getDate() + 2;
+			var v_month = date.getMonth() + 2;
+			var v_year = date.getFullYear();
+			var newYear____ = v_month+ " " +v_date + " " + " " + v_year + " " + v_hour +  ":" + v_minute + ":47";
+			console.log(newYear____);
+			var newYear__ = newYear____;
+			// var newYear__ = "2 17 2022 22:38:47 ";
+			var countdown__ = function (e__) {
+				var diff = new Date(e__).valueOf() - new Date().valueOf();
+				var total = Math.floor(diff / 1000);
+				var days__ = Math.floor(total / 3600 / 24);
+				var hours__ = Math.floor((total / 3600) % 24);
+				var minutes__ = Math.floor(total / 60) % 60;
+				var seconds = Math.floor(total) % 60;
+				ui__(days__, hours__, minutes__, seconds);
+			};
+			var ui__ = function (d__, h__, m__, s__) {
+				var days__ = document.querySelector('#days_2');
+				var hours__ = document.querySelector('#hours_2');
+				var minutes__ = document.querySelector('#minutes_2');
+				var seconds = document.querySelector('#seconds_2');
+				days__.innerText = zero(d__);
+				hours__.innerText = zero(h__);
+				minutes__.innerText = zero(m__);
+				seconds.innerText = zero(s__);
+			};
+			var zero = function (e__) { return (e__ < 10 ? ("0" + e__).toString() : e__.toString()); };
+			//inject
+			countdown__(newYear__);
+			//timer
+			setInterval(function () { return countdown__(newYear__); }, 1000);
+		</script>
+		<!-- End Article 6  |  End Hero -->
+	</article>
+</div>
+<!-- ******************************************************************************** -->
+<!-- ***************  End Article 6 |  End Hero  ************************************ -->
+<!-- ******************************************************************************** -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ******************************************************************************** -->
+<!-- ***************  Start Article 7  |  Start Safety    *************************** -->
+<!-- ******************************************************************************** -->
+<div>
+	<style>
+		/* Start Article 7  |  Start Safety */
+		#article_7 .line_dell{
+            height: 1px;
+            width: 100%;
+            background: var(--t-c-white-);
+            display: block;
+            padding: 0;
+		}
+		#article_7 .article{
+			text-align: justify;
+		}
+		#article_7 .article h2{
+			font-size: 35px;
+			color: var(--t-c-crimson-);
+		}
+		#article_7 .article p{
+			color: var(--t-c-white-);
+		}
+		/* End Article 7 |  End Safety */
+	</style>
+	<article id="article_7" class="background background_bg" data-aos="fade-up" data-aos-duration="1000">
+		<!-- Start Article 7  |  Start Safety -->
+		<div class="container">
+			<article>
+				<div class="row py-5">
+					<div class="col-12 col-lg-6">
+						<div class="image">
+							<img src="assets/img/img.jpg" alt="Toufiquer Rahman" />
+						</div>
+					</div>
+					<div class="col-12 col-lg-6">
+							<div class="article">
+								<h2>Toufiquer Rahman</h2>
+								<div class="line_dell"></div>
+								<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor vel debitis molestiae nesciunt, quidem numquam itaque unde maxime sunt, excepturi repellat dolore alias, eum quos exercitationem! Et suscipit quasi quod.</p>
+								<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor vel debitis molestiae nesciunt, quidem numquam itaque unde maxime sunt, excepturi repellat dolore alias, eum quos exercitationem! Et suscipit quasi quod.</p>
+								<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor vel debitis molestiae nesciunt, quidem numquam itaque unde maxime sunt, excepturi repellat dolore alias, eum quos exercitationem! Et suscipit quasi quod.</p>
+								<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor vel debitis molestiae nesciunt, quidem numquam itaque unde maxime sunt, excepturi repellat dolore alias, eum quos exercitationem! Et suscipit quasi quod.</p>
+							</div>
+					</div>
+				</div>
+			</article>
+		</div>
+		<!-- End Article 7  |  End Safety -->
+	</article>
+</div>
+<!-- ******************************************************************************** -->
+<!-- ***************  End Article 7 |  End Safety   ********************************* -->
+<!-- ******************************************************************************** -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ******************************************************************************** -->
+<!-- ***************  Start Article 8  |  Start How We Work ************************* -->
+<!-- ******************************************************************************** -->
+<div>
+	<style>
+		/* Start Article 8  |  Start How We Work */
+		#article_8{
+			overflow: hidden;
+			height: auto;
+		}
+		#article_8 h1{
+			font-size: 35px;
+			color: var(--t-c-crimson-);
+		}
+		#article_8 h2{
+			font-size: 35px;
+			color: var(--t-c-yellow-);
+		}
+		#article_8 p{
+			color: var(--t-c-white-);
+			text-align: justify;
+		}
+		#article_8 .image_0{
+			padding:0;
+		}
+		#article_8 .line_dell{
+            height: 1px;
+            width: 100%;
+            background: var(--t-c-white-);
+            display: block;
+            padding: 0;
+		}
+		#article_8 .article_item{
+			background: var(--t-c-black-transparent-);
+			color: var(--t-c-white-);
+			margin-bottom: 20px;
+		}
+		/* End Article 8 |  End How We Work*/
+	</style>
+	<article id="article_8" class="background background_bg_2" data-aos="fade-up" data-aos-duration="1000">
+		<!-- Start Article 8  |  Start How We Work -->
+			<div class="title">
+				<div class="container py-5">
+					<div class="text-center">
+						<h1>How We Work</h1> 
+					</div>
+					<div class="line-one"></div>
+				</div>
+			</div>
+			
+			<div class="container"  data-aos="fade-up" data-aos-duration="1000">
+				<div class="row article_item">
+					<div class="col-12 col-lg-6 image_0">
+						<div class="image">
+							<img src="assets/img/img.jpg" alt="How We Work" />
+						</div>
+					</div>
+					<div class="col-12 col-lg-6">
+						<div class="article">
+							<h2>How We Work</h2>
+							<div class="line_dell"></div>
+							<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, ad. Perspiciatis cumque facere vero optio fugiat iure expedita omnis, nam voluptatum doloremque porro, excepturi neque, saepe eum ullam eligendi quibusdam.</p>
+							<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, ad. Perspiciatis cumque facere vero optio fugiat iure expedita omnis, nam voluptatum doloremque porro, excepturi neque, saepe eum ullam eligendi quibusdam.</p>
+							<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, ad. Perspiciatis cumque facere vero optio fugiat iure expedita omnis, nam voluptatum doloremque porro, excepturi neque, saepe eum ullam eligendi quibusdam.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="container"  data-aos="fade-up" data-aos-duration="1000">
+				<div class="row article_item">
+					<div class="col-12 col-lg-6 image_0">
+						<div class="image">
+							<img src="assets/img/img.jpg" alt="How We Work" />
+						</div>
+					</div>
+					<div class="col-12 col-lg-6">
+						<div class="article">
+							<h2>How We Work</h2>
+							<div class="line_dell"></div>
+							<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, ad. Perspiciatis cumque facere vero optio fugiat iure expedita omnis, nam voluptatum doloremque porro, excepturi neque, saepe eum ullam eligendi quibusdam.</p>
+							<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, ad. Perspiciatis cumque facere vero optio fugiat iure expedita omnis, nam voluptatum doloremque porro, excepturi neque, saepe eum ullam eligendi quibusdam.</p>
+							<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, ad. Perspiciatis cumque facere vero optio fugiat iure expedita omnis, nam voluptatum doloremque porro, excepturi neque, saepe eum ullam eligendi quibusdam.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="container"  data-aos="fade-up" data-aos-duration="1000">
+				<div class="row article_item">
+					<div class="col-12 col-lg-6 image_0">
+						<div class="image">
+							<img src="assets/img/img.jpg" alt="How We Work" />
+						</div>
+					</div>
+					<div class="col-12 col-lg-6">
+						<div class="article">
+							<h2>How We Work</h2>
+							<div class="line_dell"></div>
+							<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, ad. Perspiciatis cumque facere vero optio fugiat iure expedita omnis, nam voluptatum doloremque porro, excepturi neque, saepe eum ullam eligendi quibusdam.</p>
+							<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, ad. Perspiciatis cumque facere vero optio fugiat iure expedita omnis, nam voluptatum doloremque porro, excepturi neque, saepe eum ullam eligendi quibusdam.</p>
+							<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, ad. Perspiciatis cumque facere vero optio fugiat iure expedita omnis, nam voluptatum doloremque porro, excepturi neque, saepe eum ullam eligendi quibusdam.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		<!-- End Article 8  |  End How We Work-->
+	</article>
+</div>
+<!-- ******************************************************************************** -->
+<!-- ***************  End Article 8 |  End  How We Work  **************************** -->
+<!-- ******************************************************************************** -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ******************************************************************************** -->
+<!-- ***************  Start Article 9  |  Start Services  *************************** -->
+<!-- ******************************************************************************** -->
+<div>
+	<style>
+		/* Start Article 9  |  Start Services */
+		#article_9{
+			color: var(--t-c-crimson-);
+			background: var(--theme-glass-2-);
+			position: relative;
+			border-top: 1px solid var(--t-c-white-);
+		}
+		#article_9 h1{
+			font-size: 35px;
+		}
+		#article_9 h4{
+			font-size: 25px;
+		}
+		#article_9 .item{
+			margin: 0 12px;
+		}
+		#article_9 .text_box{
+			background: var(--t-c-black-transparent-);
+		}
+		#article_9 .text_box p{
+			color: var(--t-c-white-);
+		}
+		#article_9 .line_dell{
+            height: 1px;
+            width: 100%;
+            background: var(--t-c-white-);
+            display: block;
+            padding: 0;
+		}
+		#article_9 .owl-nav{
+			display: none;
+		}
+		
+		#article_9 .owl-dots{
+			margin: 6px auto;
+		}
+		/* End Article 9 |  End Services */
+	</style>
+	<article id="article_9" class="background background_bg_3" data-aos="fade-up" data-aos-duration="1000">
+		<!-- Start Article 9  |  Start Services -->
+		<div class="title">
+			<div class="container py-5">
+				<div class="text-center">
+					<h1>Service</h1> 
+				</div>
+				<div class="line-one"></div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="owl_carousel_1 owl-carousel owl-theme">
+						
+						<div class="item">
+							<div class="card">
+								<img src="assets/img/img.jpg" alt="Services Title" />
+								<div class="card-img-overlay text_box">
+									<h4>Services Title</h4>
+									<div class="line_dell"></div>
+									<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque in a veritatis enim! Nulla incidunt atque itaque fugit harum, error odio commodi repudiandae minima.</p>
+									<p><small>Sub title</small></p>
+								</div>
+							</div>
+						</div>
+						
+						<div class="item">
+							<div class="card">
+								<img src="assets/img/img.jpg" alt="Services Title" />
+								<div class="card-img-overlay text_box">
+									<h4>Services Title</h4>
+									<div class="line_dell"></div>
+									<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque in a veritatis enim! Nulla incidunt atque itaque fugit harum, error odio commodi repudiandae minima.</p>
+									<p><small>Sub title</small></p>
+								</div>
+							</div>
+						</div>
+						
+						<div class="item">
+							<div class="card">
+								<img src="assets/img/img.jpg" alt="Services Title" />
+								<div class="card-img-overlay text_box">
+									<h4>Services Title</h4>
+									<div class="line_dell"></div>
+									<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque in a veritatis enim! Nulla incidunt atque itaque fugit harum, error odio commodi repudiandae minima.</p>
+									<p><small>Sub title</small></p>
+								</div>
+							</div>
+						</div>
+						
+						<div class="item">
+							<div class="card">
+								<img src="assets/img/img.jpg" alt="Services Title" />
+								<div class="card-img-overlay text_box">
+									<h4>Services Title</h4>
+									<div class="line_dell"></div>
+									<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque in a veritatis enim! Nulla incidunt atque itaque fugit harum, error odio commodi repudiandae minima.</p>
+									<p><small>Sub title</small></p>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Article 9  |  End Services -->
+	</article>
+</div>
+<!-- ******************************************************************************** -->
+<!-- ***************  End Article 9 |  End Services  ******************************** -->
+<!-- ******************************************************************************** -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ******************************************************************************** -->
+<!-- ***************  Start Article 10  |  Start Review   *************************** -->
+<!-- ******************************************************************************** -->
+<div>
+	<style>
+		/* Start Article 10  |  Start Review */
+		#article_10{
+			color: var(--t-c-crimson-);
+			position: relative;
+			border-top: 1px solid var(--t-c-white-);
+		}
+		#article_10 h1{
+			font-size: 35px;
+		}
+		#article_10 h4{
+			font-size: 25px;
+		}
+		#article_10 .item{
+			margin: 0 12px;
+		}
+		#article_10 .text_box{
+			background: var(--t-c-black-transparent-);
+		}
+		#article_10 .text_box p{
+			color: var(--t-c-white-);
+		}
+		#article_10 .line_dell{
+            height: 1px;
+            width: 100%;
+            background: var(--t-c-white-);
+            display: block;
+            padding: 0;
+		}
+		#article_10 .owl-nav{
+			display: none;
+		}
+		#article_10 .owl-dots{
+			margin: 6px auto;
+		}
+		/* End Article 10 |  End Review */
+	</style>
+	<article id="article_10" data-aos="fade-up" data-aos-duration="1000">
+		<!-- Start Article 10  |  Start Review -->
+		<div class="title">
+			<div class="container py-5">
+				<div class="text-center">
+					<h1>Service</h1> 
+				</div>
+				<div class="line-one"></div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="owl_carousel_2 owl-carousel owl-theme">
+						
+						<div class="item card">
+							<div class="card">
+								<img class="card-img-top" src="assets/img/img.jpg" alt="Services Title" />
+								<div class="card-body text_box">
+									<h4>Review Title</h4>
+									<div class="line_dell"></div>
+								<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, molestias?</p>
+									<p><small>Sub Title</small></p>
+								</div>
+							</div>
+						</div>
+						
+						<div class="item card">
+							<div class="card">
+								<img class="card-img-top" src="assets/img/img.jpg" alt="Services Title" />
+								<div class="card-body text_box">
+									<h4>Review Title</h4>
+									<div class="line_dell"></div>
+								<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, molestias?</p>
+									<p><small>Sub Title</small></p>
+								</div>
+							</div>
+						</div>
+						
+						<div class="item card">
+							<div class="card">
+								<img class="card-img-top" src="assets/img/img.jpg" alt="Services Title" />
+								<div class="card-body text_box">
+									<h4>Review Title</h4>
+									<div class="line_dell"></div>
+								<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, molestias?</p>
+									<p><small>Sub Title</small></p>
+								</div>
+							</div>
+						</div>
+						
+						<div class="item card">
+							<div class="card">
+								<img class="card-img-top" src="assets/img/img.jpg" alt="Services Title" />
+								<div class="card-body text_box">
+									<h4>Review Title</h4>
+									<div class="line_dell"></div>
+								<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, molestias?</p>
+									<p><small>Sub Title</small></p>
+								</div>
+							</div>
+						</div>
+						
+						<div class="item card">
+							<div class="card">
+								<img class="card-img-top" src="assets/img/img.jpg" alt="Services Title" />
+								<div class="card-body text_box">
+									<h4>Review Title</h4>
+									<div class="line_dell"></div>
+								<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, molestias?</p>
+									<p><small>Sub Title</small></p>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Article 10  |  End Review -->
+	</article>
+</div>
+<!-- ******************************************************************************** -->
+<!-- ***************  End Article 10 |  End Review  ********************************* -->
+<!-- ******************************************************************************** -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ******************************************************************************** -->
+<!-- ***************  Start Article 11  |  Start Product Item  ********************** -->
+<!-- ******************************************************************************** -->
+<div>
+	<style>
+		/* Start Article 11  |  Start Product Item */
+		#article_11 .title h1{
+			font-size: 35px;
+			color: var(--t-c-crimson-);
+		}
+		#article_11 .item h3{
+			font-size: 25px;
+		}
+		#article_11 .item{
+			margin: 0 12px;
+		}
+		#article_11 .item .card-body{
+			padding: 0px;
+		}
+		#article_11 .line_dell{
+            height: 1px;
+            width: 100%;
+            background: var(--t-c-white-);
+            display: block;
+            padding: 0;
+		}
+		#article_11 .card_buy{
+			font-size: 18px;
+			background: var(--theme-glass-2-);
+			position: relative;
+		}
+		#article_11 .card_buy a{
+			color: var(--t-c-white-);
+		}
+		#article_11 .card_buy a:hover{
+			color: var(--t-c-crimson-);
+		}
+		#article_11 .card_buy span{
+			position: absolute;
+			border-left: 1px solid var(--t-c-white-);
+			height: 52px;
+			width: 1px;
+			left: 47%;
+			top: 0px;
+			transform: rotateZ(35deg);
+		}
+		#article_11 .owl-nav{
+			display: none;
+		}
+		#article_11 .owl-dots{
+			margin: 6px auto;
+		}
+		/* End Article 11 |  End Product Item */
+	</style>
+	<article id="article_11">
+		<!-- Start Article 11  |  Start Product Item -->
+		<div class="title">
+			<div class="container py-5">
+				<div class="text-center">
+					<h1>Product Iteam</h1> 
+				</div>
+				<div class="line-one"></div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="owl_carousel_3 owl-carousel owl-theme card-columns">
+
+						<div class="item card text-center">
+							<div class="card-header bg-primary">
+								<h3>My Card 1</h3>
+							</div>
+							<div class="card-body">
+								<img class="card-img-top" src="assets/img/img.jpg" alt="Product Title" />
+							</div>
+							<div class="card-footer card_buy">
+								<div class="row">
+									<div class="col-6">
+										200$
+									</div>
+									<span></span>
+									<div class="col-6">
+										<a target="blanck" href="#">Buy</a>
+									</div>
+								</div>
+							</div> 
+						</div>
+
+						<div class="item card text-center">
+							<div class="card-header bg-primary">
+								<h3>My Card 2</h3>
+							</div>
+							<div class="card-body">
+								<img class="card-img-top" src="assets/img/img.jpg" alt="Product Title" />
+							</div>
+							<div class="card-footer card_buy">
+								<div class="row">
+									<div class="col-6">
+										200$
+									</div>
+									<span></span>
+									<div class="col-6">
+										<a target="blanck" href="#">Buy</a>
+									</div>
+								</div>
+							</div> 
+						</div>
+
+						<div class="item card text-center">
+							<div class="card-header bg-primary">
+								<h3>My Card 3</h3>
+							</div>
+							<div class="card-body">
+								<img class="card-img-top" src="assets/img/img.jpg" alt="Product Title" />
+							</div>
+							<div class="card-footer card_buy">
+								<div class="row">
+									<div class="col-6">
+										200$
+									</div>
+									<span></span>
+									<div class="col-6">
+										<a target="blanck" href="#">Buy</a>
+									</div>
+								</div>
+							</div> 
+						</div>
+
+						<div class="item card text-center">
+							<div class="card-header bg-primary">
+								<h3>My Card 4</h3>
+							</div>
+							<div class="card-body">
+								<img class="card-img-top" src="assets/img/img.jpg" alt="Product Title" />
+							</div>
+							<div class="card-footer card_buy">
+								<div class="row">
+									<div class="col-6">
+										200$
+									</div>
+									<span></span>
+									<div class="col-6">
+										<a target="blanck" href="#">Buy</a>
+									</div>
+								</div>
+							</div> 
+						</div>
+
+						<div class="item card text-center">
+							<div class="card-header bg-primary">
+								<h3>My Card 5</h3>
+							</div>
+							<div class="card-body">
+								<img class="card-img-top" src="assets/img/img.jpg" alt="Product Title" />
+							</div>
+							<div class="card-footer card_buy">
+								<div class="row">
+									<div class="col-6">
+										200$
+									</div>
+									<span></span>
+									<div class="col-6">
+										<a target="blanck" href="#">Buy</a>
+									</div>
+								</div>
+							</div> 
+						</div>
+
+						<div class="item card text-center">
+							<div class="card-header bg-primary">
+								<h3>My Card 6</h3>
+							</div>
+							<div class="card-body">
+								<img class="card-img-top" src="assets/img/img.jpg" alt="Product Title" />
+							</div>
+							<div class="card-footer card_buy">
+								<div class="row">
+									<div class="col-6">
+										200$
+									</div>
+									<span></span>
+									<div class="col-6">
+										<a target="blanck" href="#">Buy</a>
+									</div>
+								</div>
+							</div> 
+						</div>
+
+						<div class="item card text-center">
+							<div class="card-header bg-primary">
+								<h3>My Card 7</h3>
+							</div>
+							<div class="card-body">
+								<img class="card-img-top" src="assets/img/img.jpg" alt="Product Title" />
+							</div>
+							<div class="card-footer card_buy">
+								<div class="row">
+									<div class="col-6">
+										200$
+									</div>
+									<span></span>
+									<div class="col-6">
+										<a target="blanck" href="#">Buy</a>
+									</div>
+								</div>
+							</div> 
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Article 11  |  End Product Item -->
+	</article>
+</div>
+<!-- ******************************************************************************** -->
+<!-- ***************  End Article 11 |  End Product Item  *************************** -->
+<!-- ******************************************************************************** -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ******************************************************************************** -->
+<!-- ***************  Start Article 12  |  Start My Team  *************************** -->
+<!-- ******************************************************************************** -->
+<div>
+	<style>
+		/* Start Article 12  |  Start My Team */
+		#article_12{
+			position: relative;
+			border-top: 1px solid var(--t-c-white-);
+			padding-bottom: 20px;
+		}
+		#article_12 .title h1{
+			font-size: 35px;
+			color: var(--t-c-yellow-);
+		}
+		#article_12 .item{
+			margin: 0 12px;
+		}
+		#article_12 .item_wraper{
+			background: var(--t-c-black-transparent-);
+			width: 60%;
+			padding: 25px 0px;
+			padding-bottom: 10px;
+		}
+		#article_12 .item img{
+			width: 168px;
+			height: 168px;
+			border-radius: 50%;
+			margin: 0 auto;
+		}
+		#article_12 .text_box h4{
+			font-size: 35px;
+			text-align: center;
+			padding-top: 5px;
+		}
+		#article_12 .text_box p{
+			color: var(--t-c-white-);
+			text-align: center;
+		}
+		#article_12 .line_dell{
+            height: 1px;
+            width: 100%;
+            background: var(--t-c-white-);
+            display: block;
+            padding: 0;
+		}
+		#article_12 .icon{
+			text-align: center;
+		}
+		#article_12 .icon a{
+			color: var(--t-c-yellow-);
+		}
+		#article_12 .icon a:hover{
+			color: var(--t-c-white-);
+		}
+		#article_12 .icon a i {
+			padding: 2px 5px;
+			font-size: 22px;
+		} 
+		#article_12 .owl-nav{
+			display: none;
+		}
+		@media only screen and (max-width: 281px){
+			
+			#article_12 .item_wraper{
+				width: 100%!important;
+			}
+			#article_12 .item{
+				margin: 0 15px;
+				width: 250px!important;
+			}
+			#article_12 .item img{
+				width: 140px;
+				height: 140px;
+			}
+		}
+		/* End Article 12 |  End My Team */
+	</style>
+	<article id="article_12">
+		<!-- Start Article 12  |  Start My Team -->
+		<div class="title">
+			<div class="container py-5">
+				<div class="text-center">
+					<h1>My Team</h1> 
+				</div>
+				<div class="line-one"></div>
+			</div>
+		</div>
+		<div class="container item_wraper">
+					<div class="owl_carousel_4 owl-carousel owl-theme">
+
+						<div class="item">
+							<div class="">
+								<img class="" src="assets/img/png.jpg" alt="Heading Title " />
+								<div class=" text_box">
+									<h4>Card title 1</h4>
+									<div class="line_dell"></div>
+									<p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+									<p><small>Last updated 3 mins ago</small></p>
+									<div class="icon"><a href="#"><i class="bi bi-facebook"></i></a><a href="#"><i class="bi bi-twitter"></i></a><a href="#"><i class="bi bi-linkedin"></i></a><a href="#"><i class="bi bi-instagram"></i></a><a href="#"><i class="bi bi-chat-dots"></i></a></div>
+								</div>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="">
+								<img class="" src="assets/img/png.jpg" alt="Heading Title " />
+								<div class=" text_box">
+									<h4>Card title 2</h4>
+									<div class="line_dell"></div>
+									<p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+									<p><small>Last updated 3 mins ago</small></p>
+									<div class="icon"><a href="#"><i class="bi bi-facebook"></i></a><a href="#"><i class="bi bi-twitter"></i></a><a href="#"><i class="bi bi-linkedin"></i></a><a href="#"><i class="bi bi-instagram"></i></a><a href="#"><i class="bi bi-chat-dots"></i></a></div>
+								</div>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="">
+								<img class="" src="assets/img/png.jpg" alt="Heading Title " />
+								<div class=" text_box">
+									<h4>Card title 3</h4>
+									<div class="line_dell"></div>
+									<p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+									<p><small>Last updated 3 mins ago</small></p>
+									<div class="icon"><a href="#"><i class="bi bi-facebook"></i></a><a href="#"><i class="bi bi-twitter"></i></a><a href="#"><i class="bi bi-linkedin"></i></a><a href="#"><i class="bi bi-instagram"></i></a><a href="#"><i class="bi bi-chat-dots"></i></a></div>
+								</div>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="">
+								<img class="" src="assets/img/png.jpg" alt="Heading Title " />
+								<div class=" text_box">
+									<h4>Card title 4</h4>
+									<div class="line_dell"></div>
+									<p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+									<p><small>Last updated 3 mins ago</small></p>
+									<div class="icon"><a href="#"><i class="bi bi-facebook"></i></a><a href="#"><i class="bi bi-twitter"></i></a><a href="#"><i class="bi bi-linkedin"></i></a><a href="#"><i class="bi bi-instagram"></i></a><a href="#"><i class="bi bi-chat-dots"></i></a></div>
+								</div>
+							</div>
+						</div>
+
+
+					</div>
+		</div>
+		<!-- End Article 12  |  End My Team -->
+	</article>
+</div>
+<!-- ******************************************************************************** -->
+<!-- ***************  End Article 12 |  End My team  ******************************** -->
+<!-- ******************************************************************************** -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ******************************************************************************** -->
+<!-- ***************  Start Article 13  |  Start Hour of Work  ********************** -->
+<!-- ******************************************************************************** -->
+<div>
+	<style>
+		/* Start Article 13  |  Start Hour of Work */
+		#article_13 .background_wrapper{
+			background: var(--theme-glass-2-);
+		}
+		#article_13 h1{
+			color: var(--t-c-white-);
+			border-bottom: 1px solid var(--t-c-white-);
+			font-size: 35px;
+		}
+		#article_13 p{
+			color: var(--t-c-yellow-);
+			font-size: 35px;
+			padding-top: 5px;
+		}
+		/* End Article 13 |  End Hour of Work */
+	</style>
+	<article id="article_13" class="my-5">
+		<!-- Start Article 13  |  Start Hour of Work -->
+		<div class="background_wrapper py-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-md-4 col-lg-3">
+						<h1>Line of code</h1>
+						<p><span class="count">5000</span>+</p>
+					</div>
+					<div class="col-12 col-md-4 col-lg-3">
+						<h1>Line of code</h1>
+						<p><span class="count">5000</span>+</p>
+					</div>
+					<div class="col-12 col-md-4 col-lg-3">
+						<h1>Line of code</h1>
+						<p><span class="count">5000</span>+</p>
+					</div>
+					<div class="col-12 col-md-4 col-lg-3">
+						<h1>Line of code</h1>
+						<p><span class="count">5000</span>+</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Article 13  |  End Hour of Work -->
+	</article>
+</div>
+<!-- ******************************************************************************** -->
+<!-- ***************  End Article 13 |  End Hour of Work  *************************** -->
+<!-- ******************************************************************************** -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ******************************************************************************** -->
+<!-- ***************  Start Article 14  |  Start Google Map & Contact  ************** -->
+<!-- ******************************************************************************** -->
+<div>
+	<style>
+		/* Start Article 14  |  Start Google Map & Contact */
+		#article_14{
+			border-bottom:1px solid var(--t-c-white-);
+		}
+		#article_14 .title h1{
+			font-size: 35px;
+			color: var(--t-c-yellow-);
+			margin-bottom: 9px;
+		}
+		#article_14 .address{
+			margin-top: 9px;
+			font-size: 18px;
+			color: var(--t-c-white-);
+		}
+		#article_14 .address h4{
+			font-size: 22px;
+		}
+		/* End Article 14 |  End Google Map & Contact */
+	</style>
+	<article id="article_14">
+		<!-- Start Article 14  |  Start Google Map & Contact -->
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-6">
+					<div class="google_map">
+						<div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=Dhaka&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><style>.mapouter{position:relative;text-align:right;height:300px;width:100%;}</style><style>.gmap_canvas {overflow:hidden;background:none!important;height:300px;width:100%;}</style></div></div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6">
+					<div class="title">
+						<div class="container pt-5">
+							<div class="text-center">
+								<h1>Address</h1> 
+							</div>
+							<div class="line-one"></div>
+						</div>
+					</div>
+					<div class="address">
+						<h4>98/1 Bijoyshoroni, Tejgaon, Dhaka-1215, Bangladesh.</h4>
+						<h4>Mobile: (+880)1991075127</h4>
+						<h4>Email: toufiquerabc@gmail.com</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Article 14  |  End Google Map & Contact -->
+	</article>
+</div>
+<!-- ******************************************************************************** -->
+<!-- ***************  End Article 14 |  End Google Map & Contact  ******************* -->
+<!-- ******************************************************************************** -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ******************************************************************************** -->
+<!-- ***********  Start Article 15  |  Start Contact address & Contact Form  ******** -->
+<!-- ******************************************************************************** -->
+<div>
+	<style>
+		/* Start Article 15  |  Start Contact address & Contact Form */
+		#article_15{
+			border-top: 1px solid var(--t-c-white-);
+		}
+		#article_15 .title h1{
+			font-size: 35px;
+			color: var(--t-c-yellow-);
+		}
+		#article_15 .address h4{
+			font-size: 22px;
+		}
+		#article_15 .address{
+			color: var(--t-c-white-);
+		}
+		#article_15 form label{
+			font-size: 20px;
+			color: var(--t-c-yellow-);
+		}
+		#article_15 form input{
+			font-size: 18px;
+		}
+		#article_15 form small{
+			font-size: 17px;
+		}
+		#article_15 form textarea{
+			min-height: 135px;
+			font-size: 17px;
+		}
+		#article_15 form .submit{
+			float: right;
+			font-size: 17px;
+			color: var(--t-c-white-);
+			border: 1px solid currentColor;
+			margin-top: 10px;
+		}
+		#article_15 form .submit:hover{
+			color: var(--t-c-crimson-);
+			border: 1px solid currentColor;
+		}
+		/* End Article 15 |  End Contact address & Contact Form */
+	</style>
+	<article id="article_15">
+		<!-- Start Article 15  |  Start Contact address & Contact Form -->
+		<div class="container py-5">
+			<div class="row">
+				<div class="col-12 col-md-6">
+					<div class="title">
+						<div class="pt-5">
+							<div class="text-center">
+								<h1>Address</h1> 
+							</div>
+							<div class="line-one"></div>
+						</div>
+					</div>
+					<div class="address py-5">
+						<h4>98/1 Bijoyshoroni, Tejgaon, Dhaka-1215, Bangladesh.</h4>
+						<h4>Mobile: (+880)1991075127</h4>
+						<h4>Email: toufiquerabc@gmail.com</h4>
+					</div>
+				</div>
+				<div class="col-12 col-md-6">
+					<form>
+						<div class="form-group">
+							<label for="name">Name:</label>
+							<input class="form-control form-control-sm" type="text" id="name" placeholder="Enter name">
+						</div>
+						<div class="form-group">
+							<label for="email">Email address</label>
+							<input class="form-control form-control-sm"type="email" id="email" placeholder="Enter email">
+							<small class="from-text text-muted">Your email will not be shared with anyone</small>
+						</div>
+						<div class="form-group">
+							<label for="message">Message</label>
+							<textarea  class="form-control"id="message" rows="3"></textarea>
+						</div>
+						<button class="btn float-right btn-out-line-primary submit"type="submit">Submit</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!-- End Article 15  |  End Contact address & Contact Form -->
+	</article>
+</div>
+<!-- ******************************************************************************** -->
+<!-- ************  End Article 15 |  End  Contact address & Contact Form  *********** -->
+<!-- ******************************************************************************** -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ******************************************************************************** -->
+<!-- ***************  Start Article 16  |  Start About      ************************* -->
+<!-- ******************************************************************************** -->
+<div>
+	<style>
+		/* Start Article 16  |  Start About */
+		#article_16 .line_dell{
+            height: 1px;
+            width: 100%;
+            background: var(--t-c-white-);
+            display: block;
+            padding: 0;
+		}
+		#article_16 .article h2{
+			color: var(--t-c-crimson-);
+			font-size: 35px;
+		}
+		#article_16 .article, #article_16 .article p{
+			text-align: justify;
+			color: var(--t-c-white-);
+		}
+		/* End Article 16 |  End About */
+	</style>
+	<article id="article_16">
+		<!-- Start Article 16  |  Start About -->
+		<div class="container">
+			<article>
+				<div class="row py-5">
+					<div class="col-12 col-lg-6">
+						<div class="image">
+							<img src="assets/img/img.jpg" alt="Heading Title " />
+						</div>
+					</div>
+					<div class="col-12 col-lg-6">
+							<div class="article">
+								<h2>About My self,</h2>
+								<div class="line_dell"></div>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa laboriosam, totam voluptate ipsam perspiciatis inventore temporibus numquam laborum vitae eos itaque incidunt, maxime eius eum sed cum veniam est. Laudantium!</p>
+							</div>
+					</div>
+				</div>
+			</article>
+		</div>
+		<!-- End Article 16  |  End About  -->
+	</article>
+</div>
+<!-- ******************************************************************************** -->
+<!-- ***************      End Article 16 |  End About      ************************** -->
+<!-- ******************************************************************************** -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ******************************************************************************** -->
+<!-- ***************  Start Article 19  |  Start Skill bar  ************************* -->
+<!-- ******************************************************************************** -->
+<div>
+	<style>
+		/* Start Article 19  |  Start Skill bar */
+		#article_19{
+			border-top: 1px solid var(--t-c-white-);
+		}
+		#article_19 .title h2{
+			font-size: 35px;
+			color: var(--t-c-yellow-);
+		}
+		#article_19 .skill-bars{
+			padding-right: 5px;
+		}
+		#article_19 .skill-bars .bar{
+			margin: 20px 0;
+		}
+		#article_19 .skill-bars .bar:first-child{
+			margin-top: 0px;
+		}
+		#article_19 .skill-bars .bar .info{
+			margin-bottom: 5px;
+		}
+		#article_19 .skill-bars .bar .info span{
+			color: var(--t-c-white-);
+			font-weight: 500;
+			font-size: 17px;
+			opacity: 0;
+			animation: showText 0.5s 1s linear forwards;
+		}
+		@keyframes showText {
+		100%{
+			opacity: 1;
+		}
+		}
+		#article_19 .skill-bars .bar .progress-line{
+			height: 10px;
+			width: 100%;
+			background: #f0f0f0;
+			position: relative;
+			transform: scaleX(0);
+			transform-origin: left;
+			animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+		}
+		@keyframes animate {
+		100%{
+			transform: scaleX(1);
+		}
+		}
+		#article_19 .bar .progress-line span{
+			height: 100%;
+			position: absolute;
+			transform: scaleX(0);
+			transform-origin: left;
+			background: #6665ee;
+			animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+		}
+		#article_19 .progress-line span::before{
+			position: absolute;
+			content: "";
+			top: -10px;
+			right: 0;
+			height: 0;
+			width: 0;
+			border: 7px solid transparent;
+			border-bottom-width: 0px;
+			border-right-width: 0px;
+			border-top-color: #000;
+			opacity: 0;
+			animation: showText2 0.5s 1.5s linear forwards;
+		}
+		#article_19 .progress-line span::after{
+			position: absolute;
+			top: -28px;
+			right: 0;
+			font-weight: 500;
+			background: #000;
+			color: #fff;
+			padding: 1px 8px;
+			font-size: 12px;
+			opacity: 0;
+			animation: showText2 0.5s 1.5s linear forwards;
+		}
+		@keyframes showText2 {
+		100%{
+			opacity: 1;
+		}
+		}
+		#article_19 .image_0{
+			padding: 0px;
+		}
+		/* End Article 19 |  End Skill bar */
+	</style>
+		<style>
+		#article_19 .bar .progress-line.html span{
+		  width: 90%;
+		}
+		#article_19 .bar .progress-line.css span{
+		  width: 60%;
+		}
+		#article_19 .bar .progress-line.jquery span{
+		  width: 85%;
+		}
+		#article_19 .bar .progress-line.python span{
+		  width: 50%;
+		}
+		#article_19 .bar .progress-line.mysql span{
+		  width: 75%;
+		}
+		#article_19 .progress-line.html span::after{
+		  content: "90%";
+		}
+		#article_19 .progress-line.css span::after{
+		  content: "60%";
+		}
+		#article_19 .progress-line.jquery span::after{
+		  content: "85%";
+		}
+		#article_19 .progress-line.python span::after{
+		  content: "50%";
+		}
+		#article_19 .progress-line.mysql span::after{
+		  content: "75%";
+		}
+		</style>
+	<article id="article_19">
+		<!-- Start Article 19  |  Start Skill bar -->
+		<div class="container">
+			<div class="row py-4">
+				<div class="col-12 col-md-6 image_0">
+					<div class="image">
+						<img class="img-fluit" src="assets/img/img.jpg" alt="Gallery Title" />
+					</div>
+				</div>
+				<div class="col-12 col-md-6">
+					<div class="title">
+						<h2>My Skill</h2>
+					</div>
+					<div class="skill-bars">
+						<div class="bar">
+							<div class="info">
+								<span>HTML</span>
+							</div>
+							<div class="progress-line html">
+								<span></span>
+							</div>
+						</div>
+						<div class="bar">
+							<div class="info">
+								<span>CSS</span>
+							</div>
+							<div class="progress-line css">
+								<span></span>
+							</div>
+						</div>
+						<div class="bar">
+							<div class="info">
+								<span>jQuery</span>
+							</div>
+							<div class="progress-line jquery">
+								<span></span>
+							</div>
+						</div>
+						<div class="bar">
+							<div class="info">
+								<span>Python</span>
+							</div>
+							<div class="progress-line python">
+								<span></span>
+							</div>
+						</div>
+						<div class="bar">
+							<div class="info">
+								<span>MySQL</span>
+							</div>
+							<div class="progress-line mysql">
+								<span></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Article 19  |  End Skill bar -->
+	</article>
+</div>
+<!-- ******************************************************************************** -->
+<!-- ***************  End Article 19 |  End Skill bar  ****************************** -->
+<!-- ******************************************************************************** -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ******************************************************************************** -->
+<!-- ***************  Start Article 20  |  Start Portfolio  ************************* -->
+<!-- ******************************************************************************** -->
+<div>
+	<style>
+		/* Start Article 20  |  Start Portfolio */
+		.mfp-auto-cursor .mfp-content{
+			background: var(--theme-glass-2-);
+			max-width: 1000px;
+		}
+		.mfp-auto-cursor .mfp-content img{
+			width:100%;
+		}
+		.mfp-auto-cursor .mfp-content .por-text h2{
+			border-bottom: 1px solid var(--t-c-yellow-);
+			color: var(--t-c-yellow-);
+		}
+		.mfp-auto-cursor .mfp-content .por-text{
+			padding: 9px;
+		}
+		.mfp-auto-cursor .mfp-content .por-text, .mfp-auto-cursor .mfp-content .por-text p{
+			color: var(--t-c-white-);
+		}
+		.mfp-close-btn-in .mfp-close{
+			color: var(--t-c-yellow-);
+		}
+		#article_20 .my_work{
+			text-align: center;
+			font-size: 50px;
+			color: var(--t-c-yellow-);
+		}
+		#article_20 .por-text p{
+			font-size: 15px;
+			text-align: justify;
+			line-height: 20px;
+		}
+		#article_20 .por-text p a{
+			color: var(--t-c-yellow-);
+			font-weight: bold;
+			font-size: 16px;
+			text-decoration: underline;
+		}
+		#article_20 .por-text-details .col-xs-4 p {
+			font-weight: bold;
+			text-transform: uppercase;
+			color: var(--t-c-yellow-);
+		}
+
+		#article_20 .mfp-zoom-out .mfp-with-anim {
+			opacity: 0;
+			-webkit-transition: all 0.3s ease-in-out;
+			-o-transition: all 0.3s ease-in-out;
+			transition: all 0.3s ease-in-out;
+			-webkit-transform: scale(1.3);
+			-ms-transform: scale(1.3);
+			transform: scale(1.3);
+		}
+		#article_20 .mfp-zoom-out.mfp-bg {
+			opacity: 0;
+			-webkit-transition: all 0.3s ease-out;
+			-o-transition: all 0.3s ease-out;
+			transition: all 0.3s ease-out;
+		}
+		#article_20 .mfp-zoom-out.mfp-ready .mfp-with-anim {
+			opacity: 1;
+			-webkit-transform: scale(1);
+			-ms-transform: scale(1);
+			transform: scale(1);
+		}
+		#article_20 .mfp-zoom-out.mfp-ready.mfp-bg {
+			opacity: 0.8;
+		}
+		#article_20 .mfp-zoom-out.mfp-removing .mfp-with-anim {
+			-webkit-transform: scale(1.3);
+			-ms-transform: scale(1.3);
+			transform: scale(1.3);
+			opacity: 0;
+		}
+		#article_20 .mfp-zoom-out.mfp-removing.mfp-bg {
+			opacity: 0;
+		}
+		#article_20 .por-text h2 {
+			text-transform: uppercase;
+			margin: 0;
+			font-size: 22px;
+			margin-bottom: 15px;
+			border-bottom: 3px solid var(--t-c-yellow-);
+			padding-bottom: 10px;
+		}
+		#article_20 .white-popup {
+			position: relative;
+			background: #FFF;
+			padding: 30px;
+			width: auto;
+			max-width: 60%;
+			margin: 0 auto;
+		}
+		#article_20 .por-text-details .col-xs-4 p {
+			font-weight: bold;
+			text-transform: uppercase;
+		}
+		#article_20 .hovereffect {
+			width: 100%;
+			height: 100%;
+			float: left;
+			overflow: hidden;
+			position: relative;
+			text-align: center;
+			cursor: pointer;
+			background: var(--theme-glass-1-);
+		}
+		#article_20 .hovereffect .overlay {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			overflow: hidden;
+			top: 0;
+			left: 0;
+			padding: 3em;
+			text-align: left;
+		}
+		#article_20 .hovereffect img {
+			display: block;
+			position: relative;
+			max-width: none;
+			width: calc(100% + 60px);
+			-webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
+			transition: opacity 0.35s, -webkit-transform 0.45s;
+			-o-transition: opacity 0.35s, transform 0.45s;
+			transition: opacity 0.35s, transform 0.45s;
+			transition: opacity 0.35s, transform 0.45s, -webkit-transform 0.45s;
+			-webkit-transform: translate3d(-40px,0,0);
+			transform: translate3d(-40px,0,0);
+		}
+		#article_20 .hovereffect h2 {
+			text-transform: uppercase;
+			color: var(--t-c-yellow-);
+			position: relative;
+			font-size: 17px;
+			background-color: transparent;
+			padding: 5% 0 10px 0;
+			text-align: left;
+			opacity: 0;
+		}
+		#article_20 .hovereffect:hover h2 {
+			color: var(--t-c-yellow-);
+			opacity: 1;
+		}
+		#article_20 .hovereffect .overlay:before {
+			position: absolute;
+			top: 20px;
+			right: 20px;
+			bottom: 20px;
+			left: 20px;
+			border: 1px solid #fff;
+			content: '';
+			opacity: 0;
+			filter: alpha(opacity=0);
+			-webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
+			transition: opacity 0.35s, -webkit-transform 0.45s;
+			-o-transition: opacity 0.35s, transform 0.45s;
+			transition: opacity 0.35s, transform 0.45s;
+			transition: opacity 0.35s, transform 0.45s, -webkit-transform 0.45s;
+			-webkit-transform: translate3d(-20px,0,0);
+			transform: translate3d(-20px,0,0);
+		}
+		#article_20 .hovereffect a, .hovereffect p {
+			color: var(--t-c-white-);
+			opacity: 0;
+			filter: alpha(opacity=0);
+			-webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
+			transition: opacity 0.35s, -webkit-transform 0.45s;
+			-o-transition: opacity 0.35s, transform 0.45s;
+			transition: opacity 0.35s, transform 0.45s;
+			transition: opacity 0.35s, transform 0.45s, -webkit-transform 0.45s;
+			-webkit-transform: translate3d(-10px,0,0);
+			transform: translate3d(-10px,0,0);
+		}
+		#article_20 .hovereffect:hover img {
+			opacity: 0.2;
+			filter: alpha(opacity=20);
+			-webkit-transform: translate3d(0,0,0);
+			transform: translate3d(0,0,0);
+		}
+		#article_20 .hovereffect:hover .overlay:before,
+		#article_20 .hovereffect:hover a, .hovereffect:hover p {
+			opacity: 1;
+			filter: alpha(opacity=100);
+			-webkit-transform: translate3d(0,0,0);
+			transform: translate3d(0,0,0);
+		}
+		#article_20 .no-pad {
+			padding: 0;
+		}
+		/* End Article 20 |  End Portfolio */
+	</style>
+	<article id="article_20">
+		<!-- Start Article 20  |  Start Portfolio -->
+		<div class="portfolio-area div-padding py-4" id="portfolio">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="div-header wow fadeInDown" data-wow-delay="0.2s">
+							<h2 class="my_work">My Works</h2>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+
+					<div class="col-md-4 col-sm-6 col-xs-12 no-pad">
+						<div class="port-box" id="inline-popups">
+							<a data-effect="mfp-zoom-out" href="#test-popup-1">
+							<div class="hovereffect">
+							<img alt="portfolio image" class="img-responsive  " src="assets/img/img.jpg"> <!--edit image-->
+								<div class="overlay">
+									<h2>Project One</h2><!--your project name-->
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, dolores, velit. Accusantium mollitia obcaecati quos.</p>
+								</div>
+							</div></a>
+						</div>
+						<div class="white-popup mfp-with-anim mfp-hide" id="test-popup-1">
+							<div class="row">
+								<div class="col-md-7 col-xs-12">
+									<div class="por-img">
+										<img alt="portfolio image" class="img-responsive  " src="assets/img/img.jpg"> <!--edit image-->
+									</div>
+								</div>
+								<div class="col-md-5 col-xs-12">
+									<div class="por-text">
+										<h2>My Project Title</h2><!--your project title-->
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, delectus  magni nobis non omnis quia</p>
+										<div class="por-text-details">
+											<div class="row">
+												<div class="col-4">
+													<p>Client:</p>
+													<p>Completed:</p>
+													<p>Type:</p>
+													<p>link:</p>
+												</div>
+												<div class="col-8">
+													<p>Reebok</p><!--edit here-->
+													<p>15/03/2018</p><!--edit here-->
+													<p>WordPress Site</p><!--edit here-->
+													<p><a href="#">Go Live</a></p><!--edit here-->
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 col-sm-6 col-xs-12 no-pad">
+						<div class="port-box" id="inline-popups">
+							<a data-effect="mfp-zoom-out" href="#test-popup-2">
+							<div class="hovereffect">
+							<img alt="portfolio image" class="img-responsive " src="assets/img/img.jpg"> <!--edit image-->
+								<div class="overlay">
+									<h2>Project One</h2><!--your project name-->
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, dolores, velit. Accusantium mollitia obcaecati quos.</p>
+								</div>
+							</div></a>
+						</div>
+						<div class="white-popup mfp-with-anim mfp-hide" id="test-popup-2">
+							<div class="row">
+								<div class="col-md-7 col-xs-12">
+									<div class="por-img">
+										<img alt="portfolio image" class="img-responsive  " src="assets/img/img.jpg"> <!--edit image-->
+									</div>
+								</div>
+								<div class="col-md-5 col-xs-12">
+									<div class="por-text">
+										<h2>My Project Title</h2><!--your project title-->
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, illo iste magni nobis non omnis quia</p>
+										<div class="por-text-details">
+											<div class="row">
+												<div class="col-4">
+													<p>Client:</p>
+													<p>Completed:</p>
+													<p>Type:</p>
+													<p>link:</p>
+												</div>
+												<div class="col-8">
+													<p>Reebok</p><!--edit here-->
+													<p>15/03/2018</p><!--edit here-->
+													<p>WordPress Site</p><!--edit here-->
+													<p><a href="#">Go Live</a></p><!--edit here-->
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 col-sm-6 col-xs-12 no-pad">
+						<div class="port-box" id="inline-popups">
+							<a data-effect="mfp-zoom-out" href="#test-popup-3">
+							<div class="hovereffect">
+							<img alt="portfolio image" class="img-responsive  " src="assets/img/img.jpg"> <!--edit image-->
+								<div class="overlay">
+									<h2>Project One</h2><!--your project name-->
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, dolores, velit. Accusantium mollitia obcaecati quos.</p>
+								</div>
+							</div></a>
+						</div>
+						<div class="white-popup mfp-with-anim mfp-hide" id="test-popup-3">
+							<div class="row">
+								<div class="col-md-7 col-xs-12">
+									<div class="por-img">
+										<img alt="portfolio image" class="img-responsive  " src="assets/img/img.jpg"> <!--edit image-->
+									</div>
+								</div>
+								<div class="col-md-5 col-xs-12">
+									<div class="por-text">
+										<h2>My Project Title</h2><!--your project title-->
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,illo iste magni nobis non omnis quia</p>
+										<div class="por-text-details">
+											<div class="row">
+												<div class="col-4">
+													<p>Client:</p>
+													<p>Completed:</p>
+													<p>Type:</p>
+													<p>link:</p>
+												</div>
+												<div class="col-8">
+													<p>Reebok</p><!--edit here-->
+													<p>15/03/2018</p><!--edit here-->
+													<p>WordPress Site</p><!--edit here-->
+													<p><a href="#">Go Live</a></p><!--edit here-->
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 col-sm-6 col-xs-12 no-pad">
+						<div class="port-box" id="inline-popups">
+							<a data-effect="mfp-zoom-out" href="#test-popup-4">
+							<div class="hovereffect">
+							<img alt="portfolio image" class="img-responsive  " src="assets/img/img.jpg"> <!--edit image-->
+								<div class="overlay">
+									<h2>Project One</h2><!--your project name-->
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, dolores, velit. Accusantium mollitia obcaecati quos.</p>
+								</div>
+							</div></a>
+						</div>
+						<div class="white-popup mfp-with-anim mfp-hide" id="test-popup-4">
+							<div class="row">
+								<div class="col-md-7 col-xs-12">
+									<div class="por-img">
+										<img alt="portfolio image" class="img-responsive  " src="assets/img/img.jpg"> <!--edit image-->
+									</div>
+								</div>
+								<div class="col-md-5 col-xs-12">
+									<div class="por-text">
+										<h2>My Project Title</h2><!--your project title-->
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,  illo iste magni nobis non omnis quia</p>
+										<div class="por-text-details">
+											<div class="row">
+												<div class="col-4">
+													<p>Client:</p>
+													<p>Completed:</p>
+													<p>Type:</p>
+													<p>link:</p>
+												</div>
+												<div class="col-8">
+													<p>Reebok</p><!--edit here-->
+													<p>15/03/2018</p><!--edit here-->
+													<p>WordPress Site</p><!--edit here-->
+													<p><a href="#">Go Live</a></p><!--edit here-->
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 col-sm-6 col-xs-12 no-pad">
+						<div class="port-box" id="inline-popups">
+							<a data-effect="mfp-zoom-out" href="#test-popup-5">
+							<div class="hovereffect">
+							<img alt="portfolio image" class="img-responsive  " src="assets/img/img.jpg"> <!--edit image-->
+								<div class="overlay">
+									<h2>Project One</h2><!--your project name-->
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, dolores, velit. Accusantium mollitia obcaecati quos.</p>
+								</div>
+							</div></a>
+						</div>
+						<div class="white-popup mfp-with-anim mfp-hide" id="test-popup-5">
+							<div class="row">
+								<div class="col-md-7 col-xs-12">
+									<div class="por-img">
+										<img alt="portfolio image" class="img-responsive  " src="assets/img/img.jpg"> <!--edit image-->
+									</div>
+								</div>
+								<div class="col-md-5 col-xs-12">
+									<div class="por-text">
+										<h2>My Project Title</h2><!--your project title-->
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,  illo iste magni nobis non omnis quia</p>
+										<div class="por-text-details">
+											<div class="row">
+												<div class="col-4">
+													<p>Client:</p>
+													<p>Completed:</p>
+													<p>Type:</p>
+													<p>link:</p>
+												</div>
+												<div class="col-8">
+													<p>Reebok</p><!--edit here-->
+													<p>15/03/2018</p><!--edit here-->
+													<p>WordPress Site</p><!--edit here-->
+													<p><a href="#">Go Live</a></p><!--edit here-->
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 col-sm-6 col-xs-12 no-pad">
+						<div class="port-box" id="inline-popups-6">
+							<a data-effect="mfp-zoom-out" href="#test-popup-6">
+							<div class="hovereffect">
+							<img alt="portfolio image" class="img-responsive  " src="assets/img/img.jpg"> <!--edit image-->
+								<div class="overlay">
+									<h2>Project One</h2><!--your project name-->
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, dolores, velit. Accusantium mollitia obcaecati quos.</p>
+								</div>
+							</div></a>
+						</div>
+						<div class="white-popup mfp-with-anim mfp-hide" id="test-popup-6">
+							<div class="row">
+								<div class="col-md-7 col-xs-12">
+									<div class="por-img">
+										<img alt="portfolio image" class="img-responsive  " src="assets/img/img.jpg"> <!--edit image-->
+									</div>
+								</div>
+								<div class="col-md-5 col-xs-12">
+									<div class="por-text">
+										<h2>My Project Title</h2><!--your project title-->
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, illo iste magni nobis non omnis quia</p>
+										<div class="por-text-details">
+											<div class="row">
+												<div class="col-4">
+													<p>Client:</p>
+													<p>Completed:</p>
+													<p>Type:</p>
+													<p>link:</p>
+												</div>
+												<div class="col-8">
+													<p>Reebok</p><!--edit here-->
+													<p>15/03/2018</p><!--edit here-->
+													<p>WordPress Site</p><!--edit here-->
+													<p><a href="#">Go Live</a></p><!--edit here-->
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Article 20  |  End Portfolio -->
+	</article>
+</div>
+<!-- ******************************************************************************** -->
+<!-- ***************  End Article 20 |  End Portfolio  ****************************** -->
+<!-- ******************************************************************************** -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ******************************************************************************** -->
+<!-- ***************  Start Article 21  |  Start Gallery   ************************** -->
+<!-- ******************************************************************************** -->
+<div>
+	<style>
+		/* Start Article 21  |  Start Gallery  */
+		#article_21{
+			border-top: 1px solid var(--t-c-white-);
+			background: var(--theme-glass-3-);
+		}
+		#article_21 .title h1{
+			font-size: 35px;
+			color: var(--t-c-yellow-);
+		}
+		#article_21 img{
+			height: auto;
+			width: 100%;
+		}
+		#article_21 .image_0{
+			padding:0px;
+			margin-top: 1px;
+		}
+		#article_21 .image_0:hover{
+			opacity: .5;
+		}
+		.mfp-counter {
+			padding-right: 50%;
+			font-size: 19px;
+			padding-top: 8px;
+		}
+		/* End Article 21 |  End Gallery  */
+	</style>
+	<article id="article_21">
+		<!-- Start Article 21  |  Start Gallery  -->
+		<div class="title">
+			<div class="container pt-5 pb-1">
+				<div class="text-center">
+					<h1>Gallery</h1> 
+				</div>
+				<div class="line-one"></div>
+			</div>
+		</div>
+		<div class="container pt-1 pb-5">
+			<div class="row">
+				<a class="popup_item col-12 col-md-6 col-lg-4 image_0" href="assets/img/img.jpg">
+					<img src="assets/img/img.jpg" alt="Gallery Title" />
+				</a>
+				<a class="popup_item col-12 col-md-6 col-lg-4 image_0" href="assets/img/img.jpg">
+					<img src="assets/img/img.jpg" alt="Gallery Title" />
+				</a>
+				<a class="popup_item col-12 col-md-6 col-lg-4 image_0" href="assets/img/img.jpg">
+					<img src="assets/img/img.jpg" alt="Gallery Title" />
+				</a>
+				<a class="popup_item col-12 col-md-6 col-lg-4 image_0" href="assets/img/img.jpg">
+					<img src="assets/img/img.jpg" alt="Gallery Title" />
+				</a>
+				<a class="popup_item col-12 col-md-6 col-lg-4 image_0" href="assets/img/img.jpg">
+					<img src="assets/img/img.jpg" alt="Gallery Title" />
+				</a>
+				<a class="popup_item col-12 col-md-6 col-lg-4 image_0" href="assets/img/img.jpg">
+					<img src="assets/img/img.jpg" alt="Gallery Title" />
+				</a>
+			</div>
+		</div>
+		<!-- End Article 21  |  End Gallery  -->
+	</article>
+</div>
+<!-- ******************************************************************************** -->
+<!-- ***************  End Article 21 |  End Gallery   ******************************* -->
+<!-- ******************************************************************************** -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ******************************************************************************** -->
+<!-- ***************  Start Article 22  |  Start Counter   ************************** -->
+<!-- ******************************************************************************** -->
+<div class="container">
+	<div class="py-5 my-5">
+		<div class="container display-1 text-center">Counter</div>
+		<p class="count text-center text-light display-4">5000</p>
+	</div>
+</div>
+<!-- ******************************************************************************** -->
+<!-- ***************     End Article 22  |  End Counter    ************************** -->
+<!-- ******************************************************************************** -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ******************************************************************************** -->
+<!-- ***************  Start Article 23  | Start Circle Bar ************************** -->
+<!-- ******************************************************************************** -->
+<div>
+	<style>
+		/* Start Article 23  | Start Circle Bar */
+		#article_23 svg.radial-progress {
+		height: auto;
+		max-width: 200px;
+		padding: 1em;
+		transform: rotate(-90deg);
+		width: 100%;
+		}
+		#article_23 svg.radial-progress circle {
+		fill: rgba(0,0,0,0);
+		stroke: #fff;
+		stroke-dashoffset: 219.91148575129;
+		stroke-width: 10;
+		}
+		#article_23 svg.radial-progress circle.incomplete { opacity: 0.25; }
+		#article_23 svg.radial-progress circle.complete { stroke-dasharray: 219.91148575129; }
+		#article_23 svg.radial-progress text {
+		fill: #fff;
+		font: 400 1em/1 'Oswald', sans-serif;
+		text-anchor: middle;
+		}
+		#article_23 svg.radial-progress:nth-of-type(6n+1) circle { stroke: #000; }
+		#article_23 svg.radial-progress:nth-of-type(6n+2) circle { stroke: #a2ed56; }
+		#article_23 svg.radial-progress:nth-of-type(6n+3) circle { stroke: #fd6470; }
+		#article_23 svg.radial-progress:nth-of-type(6n+4) circle { stroke: #fca858; }
+		#article_23 svg.radial-progress:nth-of-type(6n+5) circle { stroke: #fddc32; }
+		/* Other Css */
+		#article_23 .main_circle{
+		position: relative;
+		height: 200px;
+		width: 200px;
+		background: aquamarine;
+		margin: 0 auto;
+		}
+		#article_23 .main_circle .circle_bg{
+		position: absolute;
+		}
+		#article_23 .main_circle .circle_center{
+		position: absolute;
+		position: absolute;
+		top: 33%;
+		left: 33%;
+		font-size: 42px;
+		}
+		/* End Article 23  | End Circle Bar */
+	</style>
+	<article id="article_23">
+		<!-- Start Article 23  | Start Circle Bar -->
+		<div class="main_circle">
+			<div class="circle_bg">
+				<svg class="radial-progress" data-percentage="56" viewBox="0 0 80 80">
+					<circle class="incomplete" cx="40" cy="40" r="35"></circle>
+					<circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+					<text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)"></text>
+				</svg>
+			</div>
+			<div class="circle_center">
+				<span class="count">56</span><span>%</span>
+			</div>
+		</div>
+		<!-- End Article 23  | End Circle Bar -->
+	</article>
+</div>
+<!-- ******************************************************************************** -->
+<!-- ***************    End Article 23  | End Circle Bar   ************************** -->
+<!-- ******************************************************************************** -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ******************************************************************************** -->
+<!-- ***************  Start Article 24  | Start CD Headline  ************************ -->
+<!-- ******************************************************************************** -->
+<div>
+	<div class="cd-title">
+		<h1>Animated Headlines</h1>
+	</div>
+	
+	<div class="cd-intro">
+	
+		<h1 class="cd-headline rotate-1">
+			<span>My favourite food is</span>
+			<span class="cd-words-wrapper">
+				<b class="is-visible">pizza</b>
+				<b>sushi</b>
+				<b>steak</b>
+			</span>
+		</h1>
+	</div> <!-- cd-intro -->
+	<div class="cd-intro">
+		<h1 class="cd-headline letters type">
+			<span>My favourite food is</span> 
+			<span class="cd-words-wrapper waiting">
+				<b class="is-visible">pizza</b>
+				<b>sushi</b>
+				<b>steak</b>
+			</span>
+		</h1>
+	</div> <!-- cd-intro -->
+	<div class="cd-intro">
+		<h1 class="cd-headline letters rotate-2">
+			<span>My favourite food is</span> 
+			<span class="cd-words-wrapper">
+				<b class="is-visible">pizza</b>
+				<b>sushi</b>
+				<b>steak</b>
+			</span>
+		</h1>
+	</div> <!-- cd-intro -->
+	<div class="cd-intro">
+		<h1 class="cd-headline loading-bar">
+			<span>My favourite food is</span>
+			<span class="cd-words-wrapper">
+				<b class="is-visible">pizza</b>
+				<b>sushi</b>
+				<b>steak</b>
+			</span>
+		</h1>
+	</div> <!-- cd-intro -->
+	<div class="cd-intro">
+		<h1 class="cd-headline slide">
+			<span>My favourite food is</span>
+			<span class="cd-words-wrapper">
+				<b class="is-visible">pizza</b>
+				<b>sushi</b>
+				<b>steak</b>
+			</span>
+		</h1>
+	</div> <!-- cd-intro -->
+	<div class="cd-intro">
+		<h1 class="cd-headline clip is-full-width">
+			<span>My favourite food is</span>
+			<span class="cd-words-wrapper">
+				<b class="is-visible">pizza</b>
+				<b>sushi</b>
+				<b>steak</b>
+			</span>
+		</h1>
+	</div> <!-- cd-intro -->
+	<div class="cd-intro">
+		<h1 class="cd-headline zoom">
+			<span>My favourite food is</span>
+			<span class="cd-words-wrapper">
+				<b class="is-visible">pizza</b>
+				<b>sushi</b>
+				<b>steak</b>
+			</span>
+		</h1>
+	</div> <!-- cd-intro -->
+	<div class="cd-intro">
+		<h1 class="cd-headline letters rotate-3">
+			<span>My favourite food is</span> 
+			<span class="cd-words-wrapper">
+				<b class="is-visible">pizza</b>
+				<b>sushi</b>
+				<b>steak</b>
+			</span>
+		</h1>
+	</div> <!-- cd-intro -->
+	<div class="cd-intro">
+		<h1 class="cd-headline letters scale">
+			<span>My favourite food is</span> 
+			<span class="cd-words-wrapper">
+				<b class="is-visible">pizza</b>
+				<b>sushi</b>
+				<b>steak</b>
+			</span>
+		</h1>
+	</div> <!-- cd-intro -->
+	<div class="cd-intro">
+		<h1 class="cd-headline push">
+			<span>My favourite food is</span>
+			<span class="cd-words-wrapper">
+				<b class="is-visible">pizza</b>
+				<b>sushi</b>
+				<b>steak</b>
+			</span>
+		</h1>
+	</div> <!-- cd-intro -->
+</div>
+<!-- ******************************************************************************** -->
+<!-- ***************    End Article 24  | End CD Headline    ************************ -->
+<!-- ******************************************************************************** -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ******************************************************************************** -->
+<!-- ***************    Start Article 25  | Start Card Filter    ******************** -->
+<!-- ******************************************************************************** -->
+<div>
+	<style>
+		/* Start Article 25  | Start Card Filter */
+		/* Center website */
+		#article_25 h2 {
+			color: var(--t-c-crimson-);
+			font-size: 35px;
+			text-align: center;
+		}
+		#article_25 #myBtnContainer {
+			padding: 9px 0px;
+			font-size:18px;
+			text-align: center;
+		}
+		#article_25 .main {
+			max-width: 1000px;
+			margin: auto;
+		}
+		#article_25 .content h4{
+			padding-top: 5px;
+			color: var(--t-c-white-);
+
+		}
+		#article_25 .content p{
+			padding-top: 3px;
+			color: var(--t-c-white-);
+
+		}
+		#article_25 a{
+			float: right;
+			position: absolute;
+			bottom: 15px;
+			right: 10px;
+			font-size: 16px;
+			color: var(--t-c-yellow-);
+			border: 1px solid currentColor;
+		}
+		#article_25 a:hover{
+			color: var(--t-c-crimson-);
+			border: 1px solid currentColor;
+			background: none;
+		}
+		#article_25 .row {
+			margin: 8px -16px;
+		}
+		/* Add padding BETWEEN each column (if you want) */
+		#article_25 .row,
+		#article_25 .row > .column {
+			padding: 8px;
+		}
+		/* Create three equal columns that floats next to each other */
+		#article_25 .column {
+			/* float: left; */
+			/* width: 33.33%; */
+			display: none; /* Hide columns by default */
+		}
+		/* Clear floats after rows */
+		#article_25 .row:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+		/* Content */
+		#article_25 .content {
+			background: var(--theme-glass-3-);
+			position: relative;
+			padding: 10px;
+		}
+		/* The "show" class is added to the filtered elements */
+		#article_25 .show {
+			display: block;
+		}
+		/* Style the buttons */
+		#article_25 #myBtnContainer .my_btn {
+			font-size: 18px;
+			color: var(--t-c-white-);
+			border: 1px solid currentColor;
+			background-color: var(--t-c-black-transparent-);
+			outline: none;
+			padding: 8px 8px;
+		}
+		/* Add a grey background color on mouse-over */
+		#article_25 #myBtnContainer button:hover {
+			color: var(--t-c-yellow-);
+			border: 1px solid currentColor;
+			background-color: var(--t-c-black-transparent-);
+			cursor: pointer;
+		}
+		/* Add a dark background color to the active button */
+		#article_25 #myBtnContainer .active_filter{
+			display: inline;
+		}
+		#article_25 #myBtnContainer .active .my_btn{
+			color: var(--t-c-crimson-);
+			border: 1px solid currentColor;
+			background-color: var(--t-c-black-transparent-);
+			cursor: pointer;
+		}
+		/* End Article 25  | End Card Filter */
+	</style>
+	<article id="article_25">
+		<!-- Start Article 25  | Start Card Filter -->
+		<h2>PORTFOLIO</h2>
+		<div class="line-one"></div>
+		<div id="myBtnContainer">
+			<div class="active_filter active"><button class="my_btn" onclick="filterSelection('all_my_card')"> Show all</button></div>
+			<div class="active_filter"><button class="my_btn" onclick="filterSelection('nature')"> Nature</button></div>
+			<div class="active_filter"><button class="my_btn" onclick="filterSelection('cars')"> Cars</button></div>
+			<div class="active_filter"><button class="my_btn" onclick="filterSelection('people')"> People</button></div>
+		</div>
+
+		<!-- Portfolio Gallery Grid -->
+		<div class="container">
+			<div class="row">
+				<div class="column nature col-12 col-lg-6">
+					<div class="content">
+						<img src="https://www.w3schools.com/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+						<h4>Mountains</h4>
+						<p>Lorem ipsum dolor..</p>
+						<a target="blanck" class="btn" href="#" id="filter_btn">View</a>
+					</div>
+				</div>
+				<div class="column nature col-12 col-lg-6">
+					<div class="content">
+						<img src="https://www.w3schools.com/w3images/lights.jpg" alt="Lights" style="width:100%">
+						<h4>Lights</h4>
+						<p>Lorem ipsum dolor..</p>
+						<a target="blanck" class="btn" href="#" id="filter_btn">View</a>
+					</div>
+				</div>
+				<div class="column nature col-12 col-lg-6">
+					<div class="content">
+						<img src="https://www.w3schools.com/w3images/nature.jpg" alt="Nature" style="width:100%">
+						<h4>Forest</h4>
+						<p>Lorem ipsum dolor..</p>
+						<a target="blanck" class="btn" href="#" id="filter_btn">View</a>
+					</div>
+				</div>
+
+				<div class="column cars col-12 col-lg-6">
+					<div class="content">
+						<img src="https://www.w3schools.com/w3images/cars1.jpg" alt="Car" style="width:100%">
+						<h4>Retro</h4>
+						<p>Lorem ipsum dolor..</p>
+						<a target="blanck" class="btn" href="#" id="filter_btn">View</a>
+					</div>
+				</div>
+				<div class="column cars col-12 col-lg-6">
+					<div class="content">
+						<img src="https://www.w3schools.com/w3images/cars2.jpg" alt="Car" style="width:100%">
+						<h4>Fast</h4>
+						<p>Lorem ipsum dolor..</p>
+						<a target="blanck" class="btn" href="#" id="filter_btn">View</a>
+					</div>
+				</div>
+				<div class="column cars col-12 col-lg-6">
+					<div class="content">
+						<img src="https://www.w3schools.com/w3images/cars3.jpg" alt="Car" style="width:100%">
+						<h4>Classic</h4>
+						<p>Lorem ipsum dolor..</p>
+						<a target="blanck" class="btn" href="#" id="filter_btn">View</a>
+					</div>
+				</div>
+
+				<div class="column people col-12 col-lg-6">
+					<div class="content">
+						<img src="https://www.w3schools.com/w3images/people1.jpg" alt="People" style="width:100%">
+						<h4>Girl</h4>
+						<p>Lorem ipsum dolor..</p>
+						<a class="btn" href="#" id="filter_btn">View</a>
+					</div>
+				</div>
+				<div class="column people col-12 col-lg-6">
+					<div class="content">
+						<img src="https://www.w3schools.com/w3images/people2.jpg" alt="People" style="width:100%">
+						<h4>Man</h4>
+						<p>Lorem ipsum dolor..</p>
+						<a target="blanck" class="btn" href="#" id="filter_btn">View</a>
+					</div>
+				</div>
+				<div class="column people col-12 col-lg-6">
+					<div class="content">
+						<img src="https://www.w3schools.com/w3images/people3.jpg" alt="People" style="width:100%">
+						<h4>Woman</h4>
+						<p>Lorem ipsum dolor..</p>
+						<a target="blanck" class="btn" href="#" id="filter_btn">View</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- END GRID -->
+		<!-- End Article 25  | End Card Filter -->
+	</article>
+	<script>
+		// Start Article 25  | Start Card Filter
+			filterSelection("all_my_card")
+			function filterSelection(c) {
+			var x, i;
+			x = document.getElementsByClassName("column");
+			if (c == "all_my_card") c = "";
+				for (i = 0; i < x.length; i++) {
+					w3RemoveClass(x[i], "show");
+					if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+				}
+			}
+			function w3AddClass(element, name) {
+			var i, arr1, arr2;
+			arr1 = element.className.split(" ");
+			arr2 = name.split(" ");
+				for (i = 0; i < arr2.length; i++) {
+					if (arr1.indexOf(arr2[i]) == -1) {
+					element.className += " " + arr2[i];
+					}
+				}
+			}
+			function w3RemoveClass(element, name) {
+			var i, arr1, arr2;
+			arr1 = element.className.split(" ");
+			arr2 = name.split(" ");
+			for (i = 0; i < arr2.length; i++) {
+				while (arr1.indexOf(arr2[i]) > -1) {
+				arr1.splice(arr1.indexOf(arr2[i]), 1);
+				}
+			}
+			element.className = arr1.join(" ");
+			}
+
+            var elements = document.getElementsByClassName("active_filter");
+            for(var i = 0; i < elements.length; i++)
+            {
+                elements[i].onclick = function(){
+                    
+                    // remove class from sibling
+                    
+                    var el = elements[0];
+                    while(el)
+                    {
+                        if(el.tagName === "DIV"){
+                            //remove class
+                            el.classList.remove("active");
+                            
+                        }
+                        // pass to the new sibling
+                        el = el.nextSibling;
+                    }
+                    
+                  this.classList.add("active");  
+                };
+            }
+		// End Article 25  | End Card Filter
+	</script>
+</div>
+<!-- ******************************************************************************** -->
+<!-- ***************    End Article 25  | End Card Filter    ************************ -->
+<!-- ******************************************************************************** -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ******************************************************************************** -->
+<!-- ***************  Start Article 26 | Start New Year Coundown  ******************* -->
+<!-- ******************************************************************************** -->
+<div>
+	<style>
+		/* Start Article 26 | Start New Year Coundown */
+		@keyframes animate_count {
+		0% {
+			background-position: 0%;
+		}
+		100% {
+			background-position: 100%;
+		}
+		}
+
+		#article_26 .container {
+			background-image: linear-gradient(
+				315deg,
+				rgba(248, 155, 158, 0.3) 0%,
+				rgba(150, 200, 251, 0.3) 30%,
+				rgba(62, 229, 119, 0.3) 60%,
+				rgba(201, 217, 255, 0.3) 100%
+				);
+			background-size: 500% 500%;
+			animation: animate_count 10s ease infinite;
+			animation-direction: alternate;
+			width: 100vw;
+			min-height: 100vh;
+			margin-left: auto;
+			margin-right: auto;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+		#article_26 .container .title {
+			color: var(--t-c-yellow-);
+			width: max-content;
+			position: absolute;
+			font-size: 35px;
+			top: -30px;
+			left: 50%;
+			transform: translateX(-50%);
+		}
+		@media only screen and (max-width: 768px) {
+		#article_26 .container .title {
+			top: -35px;
+			font-size: 25px;
+		}
+		}
+		#article_26 .container .skeleton {
+			position: relative;
+			max-width: 620px;
+			width: 100%;
+			height: 180px;
+			display: grid;
+			grid-template-columns: repeat(4, 1fr);
+			background: rgba(0, 0, 0, 0.3);
+			border-radius: 30px;
+			transform: skewX(-8deg);
+			text-align: center;
+			align-content: center;
+			align-items: center;
+			box-shadow: 2px 1px 10px rgba(0, 0, 0, 0.3);
+		}
+		@media only screen and (max-width: 768px) {
+		.container .skeleton {
+			grid-template-columns: 1fr 1fr;
+			grid-template-rows: 1fr 1fr;
+			transform: none;
+			width: 90%;
+			height: auto;
+		}
+		}
+		#article_26 .container .skeleton .box {
+			background: rgba(0, 0, 0, 0.1);
+			border-radius: 30px;
+			margin: 20px;
+			padding: 10px;
+		}
+		@media only screen and (max-width: 768px) {#article_26 
+		.container .skeleton .box {
+			margin: 10px;
+			padding: 40px 0;
+		}
+		}
+		#article_26 .container .skeleton .box h2 {
+			font-size: 50px;
+			color: var(--t-c-white-);
+		}
+		#article_26 .container .skeleton .box span {
+			font-size: 16px;
+			color: var(--t-c-yellow-);
+		}
+		@media only screen and (max-width: 768px) {
+			#article_26 .container .skeleton .box h2 {
+				font-size: 40px;
+			}
+		}
+		/* End Article 26 | End New Year Coundown */
+	</style>
+
+	<article id="article_26">
+		<!-- Start Article 26 | Start New Year Coundown -->
+		<div class="container">
+			<div class="skeleton">
+				<h1 class="title">New Year Countdown</h1>
+			<div class="box">
+				<h2 id="days">##</h2>
+				<span>Days</span>
+			</div>
+			<div class="box">
+				<h2 id="hours">##</h2>
+				<span>Hours</span>
+			</div>
+			<div class="box">
+				<h2 id="minutes">##</h2>
+				<span>Minutes</span>
+			</div>
+			<div class="box">
+				<h2 id="seconds">##</h2>
+				<span>Seconds</span>
+			</div>
+		</div>
+		<!-- End Article 26 | End New Year Coundown -->
+	</article>
+
+	<script>
+		// End Article 26 | End New Year Coundown
+		var date = new Date();
+		var v_minute = date.getMinutes();
+		var v_hour = date.getHours();
+		var v_date = date.getDate() + 2;
+		var v_month = date.getMonth() + 2;
+		var v_year = date.getFullYear();
+		var newYear__ = v_month+ " " +v_date + " " + " " + v_year + " " + v_hour +  ":" + v_minute + ":47";
+		console.log(newYear__);
+		var newYear = newYear__;
+		// var newYear = "2 17 2022 22:38:47 ";
+		var countdown = function (e) {
+			var diff = new Date(e).valueOf() - new Date().valueOf();
+			var total = Math.floor(diff / 1000);
+			var days = Math.floor(total / 3600 / 24);
+			var hours = Math.floor((total / 3600) % 24);
+			var minutes = Math.floor(total / 60) % 60;
+			var seconds = Math.floor(total) % 60;
+			ui(days, hours, minutes, seconds);
+		};
+		var ui = function (d, h, m, s) {
+			var days = document.querySelector('#days');
+			var hours = document.querySelector('#hours');
+			var minutes = document.querySelector('#minutes');
+			var seconds = document.querySelector('#seconds');
+			days.innerText = zero(d);
+			hours.innerText = zero(h);
+			minutes.innerText = zero(m);
+			seconds.innerText = zero(s);
+		};
+		var zero = function (e) { return (e < 10 ? ("0" + e).toString() : e.toString()); };
+		//inject
+		countdown(newYear);
+		//timer
+		setInterval(function () { return countdown(newYear); }, 1000);
+		// End Article 26 | End New Year Coundown
+	</script>
+</div>
+<!-- ******************************************************************************** -->
+<!-- ***************    End Article 26 | End New Year Coundown    ******************* -->
+<!-- ******************************************************************************** -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- --------------------------------------------------------------------------------- -->
+<!-- 									Mouse Click Disabled	   					   -->
+<!-- --------------------------------------------------------------------------------- -->
+<script>
+	// document.addEventListener("contextmenu",function(mouseFunction){mouseFunction.preventDefault();});
+</script>
+<!-- --------------------------------------------------------------------------------- -->
+<!-- --------------------------------------------------------------------------------- -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ******************************************************************************** -->
+<!-- ***************  Start Article 29  |  Start Mega Footer  *********************** -->
+<!-- ******************************************************************************** -->
+<div>
+	<style>
+		/* Start Article 29  |  Start Mega Footer */
+		#article_29 .nb-footer {
+			border-top: 4px solid var(--t-c-yellow-);
+		}
+		#article_29 .nb-footer .about .social-media ul li a:hover {
+			background: var(--t-c-yellow-);;
+		}
+		#article_29 .nb-footer .about {
+			margin: 0 auto;
+			margin-top: 40px;
+			max-width: 1170px;
+			text-align: center;
+		}
+		#article_29 .nb-footer .about p {
+			font-size: 22px;
+			line-height: 25px;
+			color: var(--t-c-white-);
+			margin-top: 30px;
+		}
+		#article_29 .nb-footer .about .social-media .list-inline li {
+			display: inline;
+		}
+		#article_29 .nb-footer .about .social-media {
+			margin-top: 15px;
+		}
+		#article_29 .nb-footer .about .social-media ul li a {
+			display: inline-block;
+			width: 45px;
+			height: 45px;
+			line-height: 45px;
+			border-radius: 50%;
+			font-size: 16px;
+			color: var(--t-c-white-);
+			border: 1px solid rgba(255, 255, 255, 0.3);
+		}
+		#article_29 .nb-footer .about .social-media ul li a:hover {
+			color: var(--t-c-black-);
+			border-color: var(--t-c-white-);
+		}
+		#article_29 .nb-footer .footer-info-single {
+			margin-top: 30px;
+		}
+		#article_29 .nb-footer .footer-info-single .title {
+			color: var(--t-c-white-);
+			text-transform: uppercase;
+			font-size: 22px;
+			border-left: 4px solid var(--t-c-yellow-);;
+			padding-left: 5px;
+		}
+		#article_29 .nb-footer .footer-info-single ul li a {
+			display: block;
+			color: var(--t-c-white-);
+			padding: 2px 0;
+			font-size:18px;
+		}
+		#article_29 .nb-footer .footer-info-single ul li a:hover {
+			color: var(--t-c-yellow-);
+		}
+		#article_29 .nb-footer .footer-info-single p {
+			font-size: 18px;
+			line-height: 20px;
+			color: var(--t-c-white-);
+		}
+		/* End Article 29 |  End Mega Footer */
+	</style>
+	<article id="article_29">
+		<!-- Start Article  17 |  Start Mega Footer -->
+		<footer class="nb-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="about">
+							<p>Bootstrap Footer example snippets with CSS, Javascript and HTML. Code example of bootstrap-3 footer using HTML, Javascript, jQuery, and CSS. 5 Beautiful and Responsive Footer Templates. Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS.</p>
+
+							<div class="social-media">
+								<ul class="list-inline">
+									<li><a href="#" title=""><i class="fa fa-facebook"></i></a></li>
+									<li><a href="#" title=""><i class="fa fa-twitter"></i></a></li>
+									<li><a href="#" title=""><i class="fa fa-google-plus"></i></a></li>
+									<li><a href="#" title=""><i class="fa fa-linkedin"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-6">
+						<div class="footer-info-single">
+							<h2 class="title">Help Center</h2>
+							<ul class="list-unstyled">
+								<li><a href="#" title=""><i class="fa fa-angle-double-right"></i> How to Pay</a></li>
+								<li><a href="#" title=""><i class="fa fa-angle-double-right"></i> FAQ's</a></li>
+								<li><a href="#" title=""><i class="fa fa-angle-double-right"></i> Sitemap</a></li>
+								<li><a href="#" title=""><i class="fa fa-angle-double-right"></i> Delivery Info</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-6">
+						<div class="footer-info-single">
+							<h2 class="title">Customer information</h2>
+							<ul class="list-unstyled">
+								<li><a href="#" title=""><i class="fa fa-angle-double-right"></i> About Us</a></li>
+								<li><a href="#" title=""><i class="fa fa-angle-double-right"></i> FAQ's</a></li>
+								<li><a href="#" title=""><i class="fa fa-angle-double-right"></i> Sell Your Items</a></li>
+								<li><a href="#" title=""><i class="fa fa-angle-double-right"></i> Contact Us</a></li>
+								<li><a href="#" title=""><i class="fa fa-angle-double-right"></i> RSS</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-6">
+						<div class="footer-info-single">
+							<h2 class="title">Security & privacy</h2>
+							<ul class="list-unstyled">
+								<li><a href="#" title=""><i class="fa fa-angle-double-right"></i> Terms Of Use</a></li>
+								<li><a href="#" title=""><i class="fa fa-angle-double-right"></i> Privacy Policy</a></li>
+								<li><a href="#" title=""><i class="fa fa-angle-double-right"></i> Return / Refund Policy</a></li>
+								<li><a href="#" title=""><i class="fa fa-angle-double-right"></i> Store Locations</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-6">
+						<div class="footer-info-single">
+							<h2 class="title">Payment</h2>
+							<p>Sample HTML page with Twitter's Bootstrap. Code example of Easy Sticky Footer using HTML, Javascript, jQuery, and CSS. This bootstrap tutorial covers all the major elements of responsive</p>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- End Article 29  |  End Mega Footer -->
+	</article>
+</div>
+<!-- ******************************************************************************** -->
+<!-- ***************  End Article 29 |  End  Mega Footer **************************** -->
+<!-- ******************************************************************************** -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ******************************************************************************** -->
+<!-- ***************  Start Article 30  |  Start Footer  **************************** -->
+<!-- ******************************************************************************** -->
+<div>
+	<style>
+		/* Start Article 30  |  Start Footer */
+		#article_30{
+			padding: 9px 0px;
+			background: var(--theme-glass-1-);
+		}
+		#article_30 p{
+			font-size: 18px;
+			text-align: center;
+			color: var(--t-c-white-);
+		}
+		/* End Article 30 |  End Footer */
+	</style>
+	<article id="article_30">
+		<!-- Start Article 30 |  Start Footer -->
+		<div class="footer_text">
+			<p>Copyright &copy; Toufiquer Rahman</p>
+		</div>
+		<!-- End Article 30  |  End Footer -->
+	</article>
+</div>
+<!-- ******************************************************************************** -->
+<!-- ***************  End Article 30 |  End Footer  ********************************* -->
+<!-- ******************************************************************************** -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ******************************************************************************** -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="assets/js/jquery-2.1.1.js"></script>
+<script src="assets/js/jquery.min-1.10.2.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="assets/js/jquery.magnific-popup.js"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
+<script src="assets/js/scrollwatch.js"></script>
+<script src="assets/js/highlight.min.js"></script>
+<script src="assets/js/aos.js"></script>
+<script src="assets/js/theme.js"></script>
+<!-- ******************************************************************************** -->
+
+
+
+
+
+<!-- 
+	Abaleable Div
+	Article - 17
+	Article - 18
+	Article - 22
+	Article - 23
+	Article - 24
+	Article - 27
+	Article - 28
+ -->
+
+
+
+
+<!-- ******************************************************************************** -->
+</body>
+</html>
